@@ -13,6 +13,7 @@ Adam Wayne                 94324
 2)Select the Employee with the least salary
 
 SELECT MIN(salary) as min_salary FROM employee
+o/p:
 min_salary
 -----------
       16879
@@ -24,7 +25,6 @@ min_salary
 SELECT name FROM employee AS E INNER JOIN dept AS D ON D.dep_id = E.dep_id WHERE D.dep_manager = 'NULL'
 or
  SELECT name FROM employee WHERE dep_id NOT IN (SELECT dep_id FROM dept);
-
 O/P:
 name
 -------------------- 
@@ -37,7 +37,6 @@ SELECT name FROM employee AS E INNER JOIN dept AS D ON D.dep_id = E.dep_id WHERE
 
 or 
 SELECT name FROM employee , dept WHERE name = dep_manager ;
-
 O/P:
 name
 --------------------
@@ -51,7 +50,6 @@ Natasha Stevens
 5)Select the Empolyee who is a Manager and has least salary
 
  SELECT min(salary) FROM employee WHERE name in ( select dep_manager from dept ) ;
-
 o/p:
 min_sal
 -----------
@@ -62,7 +60,7 @@ min_sal
 6)Select the total number of Employees in Communications departments
 
 SELECT COUNT(name)as count FROM employee AS E INNER JOIN dept AS D ON D.dep_id = E.dep_id  WHERE dep_name = 'COMMUNICATIONS'
-
+o/p:
 COUNT
 -----------
           6
@@ -70,7 +68,7 @@ COUNT
 7)Select the Employee in Finance Department who has the top salary
 
 SELECT TOP 1 name,salary  FROM employee AS E INNER JOIN dept AS D ON D.dep_id = E.dep_id WHERE dep_name = 'FINANCE' order by salary desc
-
+o/p:
 name                 salary
 -------------------- -----------
 Adam Wayne                 94324
