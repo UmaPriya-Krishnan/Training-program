@@ -130,3 +130,49 @@ total_expense
 -------------
        169981
 ***********************************************************************************************************************************
+*************************************************************************************************************************************
+16)Select the count of Employees in each department
+
+ SELECT COUNT(employee.e_id) AS count, dept.dep_name FROM employee, dept WHERE employee.dep_id=dept.dep_id GROUP BY dept.dep_name;
+o/p:
+count       dep_name
+----------- --------------------
+          6 Communications
+          3 Finance
+          5 Health
+          3 Insurance
+          2 Product
+
+**************************************************************************************************************************************
+17)Select the count of Employees in each department having salary <10000
+
+SELECT COUNT(employee.e_id) AS count, dept.dep_name FROM employee, dept WHERE employee.dep_id=dept.dep_id AND employee.salary < 10000 GROUP BY dept.dep_name;
+o/p:
+count       dep_name
+----------- --------------------
+
+****************************************************************************************************************************************
+
+18)Select the total number of Employees in Dept id D04
+
+SELECT count(e_id) AS count FROM employee where dep_id='D04';
+o/p:
+count
+-----------
+          3
+*****************************************************************************************************************************************
+19)Select all department details of the Department with Maximum Employees
+
+SELECT max(e_id),dep_name FROM (SELECT count(e_id) e_id FROM employee group by dep_id)as d, dept;
+
+o/p:
+
+******************************************************************************************************************************************
+20)Select the Employees who has Tim Cook as their manager
+
+SELECT name FROM employee as E INNER JOIN dept as D on E.dep_id = D.dep_id where dep_manager = 'Tim Cook'
+O/P:
+name
+--------------------
+(EMPTY)
+
