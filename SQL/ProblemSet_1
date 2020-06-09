@@ -296,21 +296,36 @@ Park Place                  1289 N
 
 9. List the hotel names, booking dates, and room numbers for all hotels in New York.
 
-1> SELECT Name, Room_no, Date_From, Date_to FROM Hotel as H INNER JOIN Booking as B ON H.Hotel_no = B.Hotel_no
+1> SELECT Name, Room_no, Date_From, Date_to FROM Hotel as H INNER JOIN Booking as B ON H.Hotel_no = B.Hotel_no where H.city = 'New York'
 2> go
 Name                 Room_no     Date_From            Date_to
 -------------------- ----------- -------------------- --------------------
 Empire Hotel                 412 10-Aug-99            15-AUG-99
 Empire Hotel                 412 18-AUG-99            21-AUG-99
 Park Place                  1267 05-SEP-99            12-SEP-99
-James Plaza                  467 15-SEP-99            18-SEP-99
-James Plaza                  345 30-NOV-99            02-DEC-99
-James Plaza                  345 03-NOV-99            05-NOV-99
-Devon Hotel                 1001 15-NOV-99            19-NOV-99
-Devon Hotel                 1001 12-SEP-99            14-SEP-99
-Devon Hotel                 1201 01-OCT-99            06-OCT-99
-Clairmont Hotel              223 04-OCT-99            06-OCT-99
-Clairmont Hotel              223 14-SEP-99            17-SEP-99
 
+(3 rows affected)
 
 ********************************************************************************************************************
+10. What is the number of bookings that started in the month of September?
+
+1> Select count(*) as count from booking where Date_from like '%SEP%';
+2> go
+count
+-----------
+          4
+
+(1 rows affected)
+
+***********************************************************************************************************************
+11. List the names and cities of guests who began a stay in New York in August.
+
+select guest.Name , guest.City from guest join booking on guest.Guest_No=booking.Guest_No where month(booking.Date_From)>=08 and booking.Hotel_No in ( select hotel.Hotel_No from hotel where hotel.City='New York');
+
+Name                 City
+-------------------- --------------------
+Adam Wayne           Pittsburgh
+Tara Cummings        Baltimore
+Vanessa Parry        Pittsburgh
+
+(3 rows affected)
