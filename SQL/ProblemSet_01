@@ -329,3 +329,55 @@ Tara Cummings        Baltimore
 Vanessa Parry        Pittsburgh
 
 (3 rows affected)
+
+**********************************************************************************************************************
+12. List the hotel names and room numbers of any hotel rooms that have not been booked.
+
+1> select name,Room_no from hotel as H join room as R on H.hotel_no = R.hotel_no where R.room_no not in (select booking.room_no from booking);
+2> go
+name                 Room_no
+-------------------- -----------
+Clairmont Hotel              257
+Empire Hotel                 313
+Brownstone Hotel             876
+Brownstone Hotel             898
+Park Place                  1289
+
+(5 rows affected)
+
+**************************************************************************************************************************
+13. List the hotel name and city of the hotel with the highest priced room.
+
+1> SELECT name, city from hotel as H join Room as R on H.hotel_no = R.hotel_no where price = (select max(price) from room);
+2> go
+name                 city
+-------------------- --------------------
+Park Place           New York
+
+(1 rows affected)
+
+***************************************************************************************************************************
+
+14. List hotel names, room numbers, cities, and prices for hotels that have rooms with prices lower than the lowest priced room in a Boston hotel.
+1>  select hotel.Name , hotel.City , room.Room_No,room.Price from hotel join room on hotel.Hotel_No=room.Hotel_No where room.Price < (select min(room.Price) from room join hotel on room.Hotel_No=hotel.Hotel_No where hotel.City='Boston');
+2>
+3> go
+Name                 City                 Room_No     Price
+-------------------- -------------------- ----------- --------------
+Brownstone Hotel     Toronto                      876          124.0
+Brownstone Hotel     Toronto                      898          124.0
+
+(2 rows affected) 
+
+******************************************************************************************************************************
+15. List the average price of a room grouped by city.
+
+1> select city,avg(price) as average from hotel as H join room as R on H.hotel_no = R.hotel_no group by H.city;
+2> go
+city                 average
+-------------------- ------------------------
+Boston                                  155.0
+New York                                165.0
+Toronto                                 147.0
+
+(3 rows affected)
