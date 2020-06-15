@@ -1,0 +1,53 @@
+1. Find the titles of all movies directed by Steven Spielberg. (1 point possible)
+
+1> select title from Movie where director = 'Steven Spielberg'
+2> go
+title
+--------------------------------------------------
+E.T.
+Raiders of the Lost Ark
+
+(2 rows affected)
+
+************************************************************************************************************************************************
+
+2. Find all years that have a movie that received a rating of 4 or 5, and sort them in increasing order. (1 point possible)
+
+1> select year, stars from movie as M join Rating as R on M.mID = R.mID where stars between 4 and 5 order by year;
+2> go
+year        stars
+----------- -----------
+       1937           4
+       1937           5
+       1939           4
+       1981           4
+       1981           4
+       2009           5
+
+(6 rows affected)
+
+*******************************************************************************************
+3. Find the titles of all movies that have no ratings. (1 point possible)
+
+1> select title from movie as M join Rating as R on M.mID = R.mID where stars = ' '
+2> go
+title
+--------------------------------------------------
+
+(0 rows affected)
+
+*******************************************************************************************
+
+4. Some reviewers didn't provide a date with their rating. Find the names of all reviewers who have ratings with a NULL value for the date. (1 point possible)
+
+1> select name, ratingDate from reviewer as Re join Rating as Ra on Re.rID = Ra.rID where Ra.ratingDate is Null;
+2> go
+name                           ratingDate
+------------------------------ ----------------
+Daniel Lewis                               NULL
+Chris Jackson                              NULL
+
+(2 rows affected)
+
+*******************************************************************************************************************************************************
+
