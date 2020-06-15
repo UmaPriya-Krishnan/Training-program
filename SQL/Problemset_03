@@ -1,0 +1,159 @@
+1> create database fourthset
+2> go
+
+1> use fourthset
+2> go
+Changed database context to 'fourthset'.
+
+1> create table movie (mID int primary key, title varchar(50), year int, director varchar(30));
+2> create table Reviewer(rID int primary key, name varchar(30));
+3> create table Rating(rID int, mID int, stars int, ratingDate date, foreign key(rID) references Reviewer(rID), foreign key(mID) references Movie(mID));
+4> go
+1>
+2> INSERT INTO Movie VALUES(101, 'Gone with the Wind', '1939', 'Victor Fleming')
+3> INSERT INTO Movie VALUES(102, 'Star Wars', '1977', 'George Lucas')
+4> INSERT INTO Movie VALUES(103, 'The Sound of Music', '1965', 'Robert Wise')
+5> INSERT INTO Movie VALUES(104, 'E.T.', '1982', 'Steven Spielberg')
+6> INSERT INTO Movie VALUES (105, 'Titanic', 1997, 'James Cameron');
+7> INSERT INTO Movie VALUES (106,'Snow White', 1937, ' ' );
+8> INSERT INTO Movie VALUES (107,'Avatar',2009,'James Cameron');
+9> INSERT INTO Movie VALUES (108, 'Raiders of the Lost Ark', 1981, 'Steven Spielberg');
+10> go
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+1>
+2> select * from Movie
+3> go
+mID         title                                              year        director
+----------- -------------------------------------------------- ----------- ------------------------------
+        101 Gone with the Wind                                        1939 Victor Fleming
+        102 Star Wars                                                 1977 George Lucas
+        103 The Sound of Music                                        1965 Robert Wise
+        104 E.T.                                                      1982 Steven Spielberg
+        105 Titanic                                                   1997 James Cameron
+        106 Snow White                                                1937
+        107 Avatar                                                    2009 James Cameron
+        108 Raiders of the Lost Ark                                   1981 Steven Spielberg
+
+(8 rows affected)
+
+
+
+1> INSERT INTO Reviewer VALUES (201,'Sarah Martinez');
+2> INSERT INTO Reviewer VALUES (202,'Daniel Lewis');
+3> INSERT INTO Reviewer VALUES (203,'Brittany Harris');
+4> INSERT INTO Reviewer VALUES (204,'Mike Anderson');
+5> INSERT INTO Reviewer VALUES (205,'Chris Jackson');
+6> INSERT INTO Reviewer VALUES (206,'Elizabeth Thomas');
+7> INSERT INTO Reviewer VALUES (207,'James Cameron');
+8> INSERT INTO Reviewer VALUES (208,'Ashley White');
+9>  go
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+1> select * from Reviewer
+2> go
+rID         name
+----------- ------------------------------
+        201 Sarah Martinez
+        202 Daniel Lewis
+        203 Brittany Harris
+        204 Mike Anderson
+        205 Chris Jackson
+        206 Elizabeth Thomas
+        207 James Cameron
+        208 Ashley White
+
+(8 rows affected)
+
+
+1> INSERT INTO Rating VALUES (201, 101, 2, '20110122');
+2> INSERT INTO Rating VALUES (201, 101, 4, '20110127');
+3> INSERT INTO Rating VALUES (202, 106, 4,  null);
+4> INSERT INTO Rating VALUES (203, 103, 2, '20110120');
+5> INSERT INTO Rating VALUES (203, 108, 4, '20110112');
+6> INSERT INTO Rating VALUES (203, 108, 2, '20110130');
+7> INSERT INTO Rating VALUES (204, 101, 3, '20110109');
+8> INSERT INTO Rating VALUES (205, 103, 3, '20110127');
+9> INSERT INTO Rating VALUES (205, 104, 2, '20110122');
+10> INSERT INTO Rating VALUES (205, 108, 4,  null);
+11> INSERT INTO Rating VALUES (206, 107, 3, '20110115');
+12> INSERT INTO Rating VALUES (206, 106, 5, '20110119');
+13> INSERT INTO Rating VALUES (207, 107, 5, '20110120');
+14> INSERT INTO Rating VALUES (208, 104, 3, '20110102');
+15>  go
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+1> select * from Rating
+2> go
+rID         mID         stars       ratingDate
+----------- ----------- ----------- ----------------
+        201         101           2       2011-01-22
+        201         101           4       2011-01-27
+        202         106           4             NULL
+        203         103           2       2011-01-20
+        203         108           4       2011-01-12
+        203         108           2       2011-01-30
+        204         101           3       2011-01-09
+        205         103           3       2011-01-27
+        205         104           2       2011-01-22
+        205         108           4             NULL
+        206         107           3       2011-01-15
+        206         106           5       2011-01-19
+        207         107           5       2011-01-20
+        208         104           3       2011-01-02
+
+(14 rows affected)
