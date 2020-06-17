@@ -51,8 +51,6 @@ Chris Jackson                              NULL
 
 *******************************************************************************************************************************************************
 
-*******************************************************************************************************************************************************
-
 5. Write a query to return the ratings data in a more readable format: reviewer name, movie title, stars, and ratingDate.
  Also, sort the data, first by reviewer name, then by movie title, and lastly by number of stars. (1 point possible)
 
@@ -88,8 +86,8 @@ name                           title
 Sarah Martinez                 Gone with the Wind
 Chris Jackson                  The Sound of Music
 Elizabeth Thomas               Snow White
-*************************************************************
-*************************************************************
+
+**************************************************************************************************************************
 
 7. For each movie that has at least one rating, find the highest number of stars that movie received. 
 Return the movie title and number of stars. Sort by movie title. (1 point possible)
