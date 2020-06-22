@@ -32,3 +32,9 @@ def consonant(s):
 
 s = 'mango' 
 consonant(s)
+
+
+def pattern(n):
+    for i in range(n):
+        print(" "*(n-i-0) + "* "*(i+1))
+pattern(5)
