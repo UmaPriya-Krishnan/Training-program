@@ -30,5 +30,5 @@ def consonant(s):
     max_index = len_list.index(max(len_list)) #finding the index of the element with maximum length
     return s1[max_index]                      #printing the element with maximum length 
 
-s = 'mango'
+s = 'mango' 
 consonant(s)
