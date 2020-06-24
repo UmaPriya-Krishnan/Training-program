@@ -34,3 +34,20 @@ def number(string):
     return no
     
 number('abcd123ef45')
+
+def swap(a):
+    row = len(a)-1
+    for i in range(row,-1,-1):
+        col = len(a[i]) -1
+        for j in range(1,col):
+            if i == row-1 and j == col-2:
+                temp = a[i][j] #A11
+                a[i][j] = a[i+1][j+1]   #A11 = A21
+                a[i+1][j+1] = a[i][j+1] #A22 = A12
+                a[i][j+1] = a[i+1][j]   #A12 = A21
+                a[i+1][j] = temp        #A11 = A21 A12 = A22 A21 = A11 A22 = A12 
+    return a
+a = [[1, 2, 3, 4], 
+    [7, 8, 9, 10], 
+    [11, 12, 13, 14]]
+swap(a)
