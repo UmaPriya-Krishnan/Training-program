@@ -1,0 +1,41 @@
+2020-06-26 11:50:39,956 - Tables are created as expected
+2020-06-26 11:50:40,212 - Values are inserted 
+2020-06-26 12:36:57,773 - Tables are created as expected
+2020-06-26 12:36:57,950 - Values are inserted 
+2020-06-26 12:37:09,759 - Tables are created as expected
+2020-06-26 12:37:09,912 - Values are inserted 
+2020-06-26 12:37:22,927 - Tables are created as expected
+2020-06-26 12:37:23,092 - Values are inserted 
+2020-06-26 12:37:47,802 - Tables are created as expected
+2020-06-26 12:37:48,067 - Values are inserted 
+2020-06-26 12:55:02,780 - Tables are created as expected
+2020-06-26 12:55:08,576 - values are entered successfully
+2020-06-26 12:55:09,576 - Tables are created as expected
+2020-06-26 12:55:31,464 - Tables are created as expected
+2020-06-26 12:55:57,933 - Tables are created as expected
+2020-06-26 12:56:11,091 - Values are updated as per the given condition
+2020-06-26 12:56:13,715 - Tables are created as expected
+2020-06-26 12:56:15,480 - Selected values are displayed as expected
+2020-06-26 12:58:23,264 - Tables are created as expected
+2020-06-26 12:58:24,951 - Selected values are displayed as expected
+2020-06-26 12:58:27,966 - Tables are created as expected
+2020-06-26 12:58:57,666 - Tables are created as expected
+2020-06-26 12:59:02,482 - values are entered successfully
+2020-06-26 12:59:04,191 - Tables are created as expected
+2020-06-26 12:59:05,690 - Selected values are displayed as expected
+2020-06-26 13:00:29,638 - Tables are created as expected
+2020-06-26 13:00:55,903 - Mentioned data are deleted successfully
+2020-06-26 13:01:52,594 - Tables are created as expected
+2020-06-26 13:01:55,818 - Mentioned data are deleted successfully
+2020-06-26 13:02:00,883 - Tables are created as expected
+2020-06-26 13:02:07,642 - Values are updated as per the given condition
+2020-06-26 13:02:26,032 - Tables are created as expected
+2020-06-26 13:02:38,988 - Tables are created as expected
+2020-06-26 13:03:01,444 - Tables are created as expected
+2020-06-26 13:03:12,068 - Tables are created as expected
+2020-06-26 13:03:29,759 - Tables are created as expected
+2020-06-26 13:03:40,095 - Values are updated as per the given condition
+2020-06-26 13:08:59,056 - Tables are created as expected
+2020-06-26 13:09:28,246 - Tables are created as expected
+2020-06-26 16:07:40,872 - Tables are created as expected
+2020-06-26 16:07:40,919 - UNIQUE constraint failed: DEPT.dep_id

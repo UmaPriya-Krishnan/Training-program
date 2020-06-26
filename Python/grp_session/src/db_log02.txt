@@ -1,0 +1,18 @@
+2020-06-26 11:21:03,864 - Tables are created as expected
+2020-06-26 11:21:04,031 - Values are inserted 
+2020-06-26 11:22:38,132 - Tables are created as expected
+2020-06-26 11:22:38,301 - Values are inserted 
+2020-06-26 11:23:19,028 - Tables are created as expected
+2020-06-26 11:23:19,237 - Values are inserted 
+2020-06-26 11:24:20,004 - Tables are created as expected
+2020-06-26 11:24:20,210 - Values are inserted 
+2020-06-26 11:24:50,653 - table DEPT already exists
+2020-06-26 11:25:02,409 - table DEPT already exists
+2020-06-26 11:25:02,410 - UNIQUE constraint failed: DEPT.dep_id
+2020-06-26 11:25:31,991 - near "EXIST": syntax error
+2020-06-26 11:25:31,991 - UNIQUE constraint failed: DEPT.dep_id
+2020-06-26 11:25:50,400 - Tables are created as expected
+2020-06-26 11:25:50,576 - Values are inserted 
+2020-06-26 11:49:54,403 - Tables are created as expected
+2020-06-26 11:50:19,347 - Tables are created as expected
+2020-06-26 11:50:19,532 - Values are inserted 
