@@ -1,4 +1,0 @@
-2020-06-26 16:08:37,992 - Tables are created as expected
-2020-06-26 16:08:37,994 - UNIQUE constraint failed: DEPT.dep_id
-2020-06-26 16:09:34,731 - Tables are created as expected
-2020-06-26 16:09:34,959 - Values are inserted 
