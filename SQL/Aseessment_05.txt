@@ -1,0 +1,61 @@
+umapriya.krishnan
+11740611
+		 						
+1. select e.emp_id, e.emp_name, 
+CASE when d.desc_name is null then 'UNKNOWN DESIGNATION'
+when d.desc_name is not null and d.role_typ = 'lead' then 'TEAM_LEAD'
+else d.desc_name end as desc_name,
+CASE when p.place_desc is null then 'Others'
+when p.place_desc is not null and p.place_desc = 'newyork' then 'USA'
+else p.place_desc end as place_desc,
+CASE when pr.proj_name is null then 'UNKNOWN PROJECT'
+else pr.proj_name end as proj_name from employee e left join designation d 
+on e.desc_id = d.desc_id  left join place p on e.place_id = p.place_id  left join
+project pr on e.proj_id = pr.proj_id order by emp_id; 
+
+
+2. select e.emp_id, e.emp_name, 
+d.role_typ = 'DEVELOPER' and p.place_typ = 'OFFSHORE'
+then 'TEAMMEMBER'
+WHEN d.role_typ = 'DEVELOPER' and p.place_typ = 'NEARSHORE'
+then 'TEAMLEAD'
+WHEN d.role_typ = 'LEAD' and p.place_typ = 'ONSHORE'
+then 'SCRUMMASTER'
+WHEN  d.role_typ is not null or p.place_typ is not null 
+then 'CONTACTOR'
+else 'SHADOW' end as 'project_role'
+from employee as e left join designation d on e.desc_id = d.desc_id left  join place p on e.place_id = p.place_id 
+left join project pr on e.proj_id = pr.proj_id;
+
+
+5. SELECT s.salesman_Name, c.cust_name, s.city as salesman_city, c.city as customer_city 
+from customer c join salesman s  on c.salesman_id = s.salesman_id where s.city <> c.city;
+
+6. select s.salesman_Name, s.city, s.monthly_target, sum(c.purchased_amount ) as amount_purchased_by_customer
+from customer c join salesman s on c.salesman_id = s.salesman_id
+group by salesman_Name, s.city, s.monthly_target having amount_purchased_by_customer >= s.Monthly_Target;
+
+
+
+6. select s.salesman_Name, s.salesman_id, s.city, s.monthly_target, sum(c.purchased_amount ) as amount_purchased_by_customer
+from customer c join salesman s on c.salesman_id = s.salesman_id
+group by s.salesman_id  having amount_purchased_by_customer >= s.Monthly_Target;
+
+
+11. select Student_name,City_name,class,Classroom_num from student  a inner join
+student_details b
+on a.Student_Detail_Id=b.Student_Detail_Id
+and b.start_date <= current_date and b.end_date >= current_date
+inner join  city c on b.City_id=c.City_id
+inner join class d on b.Class_id=d.Class_id
+and d.start_date <= current_date and d.end_date >= current_date;
+ 
+
+12. select distinct s.Student_name from Student as s
+join Student_details as sd on
+s.Student_Detail_id=sd.Student_Detail_id join City as c on sd.City_Id=c.City_Id
+join Class as cl on sd.Class_Id=cl.Class_Id where c.city_name='Chennai' or cl.Classroom_num in(301,310,320); 
+ 
+13. select substr(cust_name,3,length(cust_name)-4) as derv_name from customer1;
+
+14. select cust_name from customer1 where cust_name like '%A%' or cust_name like'%U%' or cust_name like '%R%';
