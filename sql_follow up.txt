@@ -1,0 +1,3 @@
+1. in 5th question, there seems to be a mismatch in the cust_name and salesman_name
+2. In 6th question, the equal value is not included.
+3. in 15th question, the result set seems to be different.
