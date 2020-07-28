@@ -1,6 +1,7 @@
 1. Find the names of all students who are friends with someone named Gabriel. (1 point possible)
 
-mysql> select name from highschooler h join friend f on h.id=f.id1 where id2 in (select id from highschooler where name="Gabriel");
+mysql> select name from highschooler h join friend f on h.id=f.id1 where id2 in 
+(select id from highschooler where name="Gabriel");
 +-----------+
 | name      |
 +-----------+
@@ -13,7 +14,8 @@ mysql> select name from highschooler h join friend f on h.id=f.id1 where id2 in 
 5 rows in set (0.00 sec)
 
 
-2. For every student who likes someone 2 or more grades younger than themselves, return that student's name and grade, and the name and grade of the student they like. (1 point possible)
+2. For every student who likes someone 2 or more grades younger than themselves,
+ return that students name and grade, and the name and grade of the student they like. (1 point possible)
 
 mysql> select h1.name, h1.grade, h2.name, h2.grade from highschooler as h1 join likes as l on l.id1 = h1.id join highschooler as h2 on h2.id = l.id2;
 +-----------+-------+-----------+-------+
@@ -142,7 +144,7 @@ mysql> select h1.name,h1.grade,h2.name,h2.grade,h3.name,h3.grade from likes l1 j
 +---------+-------+-----------+-------+---------+-------+
 2 rows in set (0.00 sec)
 
-11. Find those students for whom all of their friends are in different grades from themselves. Return the students' names and grades.(1 point possible)
+11. Find those students for whom all of their friends are in different grades from themselves. Return the students names and grades.(1 point possible)
 
 mysql>  select f.id1,h1.name,h1.grade,f.id2,h2.name,h2.grade from friend f join highschooler h1 on f.id1=h1.id join highschooler h2 on f.id2=h2.id where h1.grade<>h2.grade;
 +------+-----------+-------+------+-----------+-------+
@@ -184,4 +186,4 @@ mysql> select name, grade from (select id1 as id, count(*) as c from friend grou
 | Andrew |    10 |
 | Alexis |    11 |
 +--------+-------+
-2 rows in set (0.00 sec)
+2 rows in set (0.00 sec)X
