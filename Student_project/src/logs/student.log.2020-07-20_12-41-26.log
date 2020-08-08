@@ -1,0 +1,1 @@
+2020-07-20 12:41:26,124 - 26220 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 60, in ddl_updates\n    self.obj2.create_table(table, filepath)\n', "AttributeError: 'execution' object has no attribute 'create_table'\n"]

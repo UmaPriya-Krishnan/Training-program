@@ -1,0 +1,1140 @@
+2020-07-20 12:53:19,345 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,421 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,421 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,471 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,471 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,471 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,510 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,510 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,510 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,510 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,559 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,559 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,559 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,559 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,559 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,598 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,598 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,598 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,598 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,598 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,598 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,639 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,639 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,639 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,639 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,639 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,639 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,639 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,700 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,700 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,700 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,700 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,700 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,700 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,700 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,700 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,747 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,747 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,747 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,747 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,747 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,747 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,747 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,747 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,747 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,797 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,797 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,797 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,797 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,797 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,797 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,797 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,797 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,797 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,797 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,853 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,853 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,853 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,853 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,853 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,853 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,853 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,853 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,853 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,853 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,853 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,902 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,902 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,902 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,902 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,902 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,902 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,902 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,902 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,902 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,902 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,902 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,902 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,960 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,960 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,960 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,960 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,960 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,960 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,960 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,960 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,960 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,960 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,960 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,960 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:19,960 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,009 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,009 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,009 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,009 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,009 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,009 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,009 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,009 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,009 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,009 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,009 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,009 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,009 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,009 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,059 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,059 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,059 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,059 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,059 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,059 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,059 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,059 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,059 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,059 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,059 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,059 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,059 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,059 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:20,059 - 25824 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 52, in ddl_updates\n    db_table = mycursor.fetchone()[1].lstrip(table).strip("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci").replace("`", "").replace("\\n","").replace("  ", "").replace(table.lower() + " (","").replace(", ", " ,").lower().replace("not null", "").split("key")[0].replace("default null", "").split(",")\n', "AttributeError: 'int' object has no attribute 'fetchone'\n"]
+2020-07-20 12:53:47,418 - 20744 INFO - create table if not exists details_main(STUDENT_ID BIGINT PRIMARY KEY NOT NULL,
+                     NAME     VARCHAR(43)   NOT NULL,
+                     DOB       DATE       NOT NULL,
+                     GENDER    VARCHAR(10),
+                     GUARDIAN_NAME  VARCHAR(45),
+                     ADDRESS    VARCHAR(50),
+                     PHONE_NO   BIGINT,
+                     DOJ    DATE,
+                     STUDENT_START_DATE DATETIME,
+                     STUDENT_END_DATE   DATETIME) details_main.sql 0.11s details_main Table CREATED
+2020-07-20 12:53:47,583 - 20744 INFO - create table if not exists dimension_calender_details(TIME_ID VARCHAR(5) PRIMARY KEY,
+                        HOLIDAY DATE,
+                        HOLIDAY_START_DATE DATETIME,
+                        HOLIDAY_END_DATE  DATETIME) dimension_calender_details.sql 0.07s dimension_calender_details Table CREATED
+2020-07-20 12:53:47,583 - 20744 INFO - create table if not exists dimension_calender_details(TIME_ID VARCHAR(5) PRIMARY KEY,
+                        HOLIDAY DATE,
+                        HOLIDAY_START_DATE DATETIME,
+                        HOLIDAY_END_DATE  DATETIME) dimension_calender_details.sql 0.07s dimension_calender_details Table CREATED
+2020-07-20 12:53:47,731 - 20744 INFO - create table if not exists dimension_course_details(COURSE_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        COURSE_NAME VARCHAR(20),
+                        COURSE_START_DATE DATETIME,
+                        COURSE_END_DATE   DATETIME) dimension_course_details.sql 0.06s dimension_course_details Table CREATED
+2020-07-20 12:53:47,731 - 20744 INFO - create table if not exists dimension_course_details(COURSE_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        COURSE_NAME VARCHAR(20),
+                        COURSE_START_DATE DATETIME,
+                        COURSE_END_DATE   DATETIME) dimension_course_details.sql 0.06s dimension_course_details Table CREATED
+2020-07-20 12:53:47,731 - 20744 INFO - create table if not exists dimension_course_details(COURSE_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        COURSE_NAME VARCHAR(20),
+                        COURSE_START_DATE DATETIME,
+                        COURSE_END_DATE   DATETIME) dimension_course_details.sql 0.06s dimension_course_details Table CREATED
+2020-07-20 12:53:47,934 - 20744 INFO - create table if not exists dimension_degree_details(DEGREE_ID BIGINT NOT NULL PRIMARY KEY,
+                        DEGREE_TYPE   VARCHAR(5),
+                        DURATION   INT,
+                        DEGREE_START_DATE DATETIME,
+                        DEGREE_END_DATE   DATETIME) dimension_degree_details.sql 0.11s dimension_degree_details Table CREATED
+2020-07-20 12:53:47,934 - 20744 INFO - create table if not exists dimension_degree_details(DEGREE_ID BIGINT NOT NULL PRIMARY KEY,
+                        DEGREE_TYPE   VARCHAR(5),
+                        DURATION   INT,
+                        DEGREE_START_DATE DATETIME,
+                        DEGREE_END_DATE   DATETIME) dimension_degree_details.sql 0.11s dimension_degree_details Table CREATED
+2020-07-20 12:53:47,934 - 20744 INFO - create table if not exists dimension_degree_details(DEGREE_ID BIGINT NOT NULL PRIMARY KEY,
+                        DEGREE_TYPE   VARCHAR(5),
+                        DURATION   INT,
+                        DEGREE_START_DATE DATETIME,
+                        DEGREE_END_DATE   DATETIME) dimension_degree_details.sql 0.11s dimension_degree_details Table CREATED
+2020-07-20 12:53:47,934 - 20744 INFO - create table if not exists dimension_degree_details(DEGREE_ID BIGINT NOT NULL PRIMARY KEY,
+                        DEGREE_TYPE   VARCHAR(5),
+                        DURATION   INT,
+                        DEGREE_START_DATE DATETIME,
+                        DEGREE_END_DATE   DATETIME) dimension_degree_details.sql 0.11s dimension_degree_details Table CREATED
+2020-07-20 12:53:48,085 - 20744 INFO - create table if not exists dimension_department_details(DEP_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        DEP_NAME VARCHAR(50),
+                        DEP_START_DATE DATETIME,
+                        DEP_END_DATE   DATETIME) dimension_department_details.sql 0.07s dimension_department_details Table CREATED
+2020-07-20 12:53:48,085 - 20744 INFO - create table if not exists dimension_department_details(DEP_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        DEP_NAME VARCHAR(50),
+                        DEP_START_DATE DATETIME,
+                        DEP_END_DATE   DATETIME) dimension_department_details.sql 0.07s dimension_department_details Table CREATED
+2020-07-20 12:53:48,085 - 20744 INFO - create table if not exists dimension_department_details(DEP_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        DEP_NAME VARCHAR(50),
+                        DEP_START_DATE DATETIME,
+                        DEP_END_DATE   DATETIME) dimension_department_details.sql 0.07s dimension_department_details Table CREATED
+2020-07-20 12:53:48,085 - 20744 INFO - create table if not exists dimension_department_details(DEP_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        DEP_NAME VARCHAR(50),
+                        DEP_START_DATE DATETIME,
+                        DEP_END_DATE   DATETIME) dimension_department_details.sql 0.07s dimension_department_details Table CREATED
+2020-07-20 12:53:48,085 - 20744 INFO - create table if not exists dimension_department_details(DEP_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        DEP_NAME VARCHAR(50),
+                        DEP_START_DATE DATETIME,
+                        DEP_END_DATE   DATETIME) dimension_department_details.sql 0.07s dimension_department_details Table CREATED
+2020-07-20 12:53:48,213 - 20744 INFO - create table if not exists dimension_exam_details(EXAM_ID INT NOT NULL PRIMARY KEY,
+                        EXAM_TYPE   VARCHAR(3),
+                        EXAM_DESCRIPTION    VARCHAR(15),
+                        EXAM_START_DATE DATETIME,
+                        EXAM_END_DATE   DATETIME) dimension_exam_details.sql 0.06s dimension_exam_details Table CREATED
+2020-07-20 12:53:48,213 - 20744 INFO - create table if not exists dimension_exam_details(EXAM_ID INT NOT NULL PRIMARY KEY,
+                        EXAM_TYPE   VARCHAR(3),
+                        EXAM_DESCRIPTION    VARCHAR(15),
+                        EXAM_START_DATE DATETIME,
+                        EXAM_END_DATE   DATETIME) dimension_exam_details.sql 0.06s dimension_exam_details Table CREATED
+2020-07-20 12:53:48,213 - 20744 INFO - create table if not exists dimension_exam_details(EXAM_ID INT NOT NULL PRIMARY KEY,
+                        EXAM_TYPE   VARCHAR(3),
+                        EXAM_DESCRIPTION    VARCHAR(15),
+                        EXAM_START_DATE DATETIME,
+                        EXAM_END_DATE   DATETIME) dimension_exam_details.sql 0.06s dimension_exam_details Table CREATED
+2020-07-20 12:53:48,213 - 20744 INFO - create table if not exists dimension_exam_details(EXAM_ID INT NOT NULL PRIMARY KEY,
+                        EXAM_TYPE   VARCHAR(3),
+                        EXAM_DESCRIPTION    VARCHAR(15),
+                        EXAM_START_DATE DATETIME,
+                        EXAM_END_DATE   DATETIME) dimension_exam_details.sql 0.06s dimension_exam_details Table CREATED
+2020-07-20 12:53:48,213 - 20744 INFO - create table if not exists dimension_exam_details(EXAM_ID INT NOT NULL PRIMARY KEY,
+                        EXAM_TYPE   VARCHAR(3),
+                        EXAM_DESCRIPTION    VARCHAR(15),
+                        EXAM_START_DATE DATETIME,
+                        EXAM_END_DATE   DATETIME) dimension_exam_details.sql 0.06s dimension_exam_details Table CREATED
+2020-07-20 12:53:48,213 - 20744 INFO - create table if not exists dimension_exam_details(EXAM_ID INT NOT NULL PRIMARY KEY,
+                        EXAM_TYPE   VARCHAR(3),
+                        EXAM_DESCRIPTION    VARCHAR(15),
+                        EXAM_START_DATE DATETIME,
+                        EXAM_END_DATE   DATETIME) dimension_exam_details.sql 0.06s dimension_exam_details Table CREATED
+2020-07-20 12:53:48,347 - 20744 INFO - create table if not exists dimension_grade_details(GRADE_ID CHAR(2) NOT NULL PRIMARY KEY,
+                        GRADE_DESCRIPTION    CHAR(20),
+                        GRADE_START_DATE DATETIME,
+                        GRADE_END_DATE   DATETIME) dimension_grade_details.sql 0.06s dimension_grade_details Table CREATED
+2020-07-20 12:53:48,347 - 20744 INFO - create table if not exists dimension_grade_details(GRADE_ID CHAR(2) NOT NULL PRIMARY KEY,
+                        GRADE_DESCRIPTION    CHAR(20),
+                        GRADE_START_DATE DATETIME,
+                        GRADE_END_DATE   DATETIME) dimension_grade_details.sql 0.06s dimension_grade_details Table CREATED
+2020-07-20 12:53:48,347 - 20744 INFO - create table if not exists dimension_grade_details(GRADE_ID CHAR(2) NOT NULL PRIMARY KEY,
+                        GRADE_DESCRIPTION    CHAR(20),
+                        GRADE_START_DATE DATETIME,
+                        GRADE_END_DATE   DATETIME) dimension_grade_details.sql 0.06s dimension_grade_details Table CREATED
+2020-07-20 12:53:48,347 - 20744 INFO - create table if not exists dimension_grade_details(GRADE_ID CHAR(2) NOT NULL PRIMARY KEY,
+                        GRADE_DESCRIPTION    CHAR(20),
+                        GRADE_START_DATE DATETIME,
+                        GRADE_END_DATE   DATETIME) dimension_grade_details.sql 0.06s dimension_grade_details Table CREATED
+2020-07-20 12:53:48,347 - 20744 INFO - create table if not exists dimension_grade_details(GRADE_ID CHAR(2) NOT NULL PRIMARY KEY,
+                        GRADE_DESCRIPTION    CHAR(20),
+                        GRADE_START_DATE DATETIME,
+                        GRADE_END_DATE   DATETIME) dimension_grade_details.sql 0.06s dimension_grade_details Table CREATED
+2020-07-20 12:53:48,347 - 20744 INFO - create table if not exists dimension_grade_details(GRADE_ID CHAR(2) NOT NULL PRIMARY KEY,
+                        GRADE_DESCRIPTION    CHAR(20),
+                        GRADE_START_DATE DATETIME,
+                        GRADE_END_DATE   DATETIME) dimension_grade_details.sql 0.06s dimension_grade_details Table CREATED
+2020-07-20 12:53:48,347 - 20744 INFO - create table if not exists dimension_grade_details(GRADE_ID CHAR(2) NOT NULL PRIMARY KEY,
+                        GRADE_DESCRIPTION    CHAR(20),
+                        GRADE_START_DATE DATETIME,
+                        GRADE_END_DATE   DATETIME) dimension_grade_details.sql 0.06s dimension_grade_details Table CREATED
+2020-07-20 12:53:48,482 - 20744 INFO - create table if not exists dimension_payment_details(FEE_ID VARCHAR(10) NOT NULL PRIMARY KEY,
+                        FEES   BIGINT,
+                        FEES_TYPE  VARCHAR(15),
+                        PAYMENT_START_DATE DATETIME,
+                        PAYMENT_END_DATE   DATETIME) dimension_payment_details.sql 0.06s dimension_payment_details Table CREATED
+2020-07-20 12:53:48,482 - 20744 INFO - create table if not exists dimension_payment_details(FEE_ID VARCHAR(10) NOT NULL PRIMARY KEY,
+                        FEES   BIGINT,
+                        FEES_TYPE  VARCHAR(15),
+                        PAYMENT_START_DATE DATETIME,
+                        PAYMENT_END_DATE   DATETIME) dimension_payment_details.sql 0.06s dimension_payment_details Table CREATED
+2020-07-20 12:53:48,482 - 20744 INFO - create table if not exists dimension_payment_details(FEE_ID VARCHAR(10) NOT NULL PRIMARY KEY,
+                        FEES   BIGINT,
+                        FEES_TYPE  VARCHAR(15),
+                        PAYMENT_START_DATE DATETIME,
+                        PAYMENT_END_DATE   DATETIME) dimension_payment_details.sql 0.06s dimension_payment_details Table CREATED
+2020-07-20 12:53:48,482 - 20744 INFO - create table if not exists dimension_payment_details(FEE_ID VARCHAR(10) NOT NULL PRIMARY KEY,
+                        FEES   BIGINT,
+                        FEES_TYPE  VARCHAR(15),
+                        PAYMENT_START_DATE DATETIME,
+                        PAYMENT_END_DATE   DATETIME) dimension_payment_details.sql 0.06s dimension_payment_details Table CREATED
+2020-07-20 12:53:48,482 - 20744 INFO - create table if not exists dimension_payment_details(FEE_ID VARCHAR(10) NOT NULL PRIMARY KEY,
+                        FEES   BIGINT,
+                        FEES_TYPE  VARCHAR(15),
+                        PAYMENT_START_DATE DATETIME,
+                        PAYMENT_END_DATE   DATETIME) dimension_payment_details.sql 0.06s dimension_payment_details Table CREATED
+2020-07-20 12:53:48,482 - 20744 INFO - create table if not exists dimension_payment_details(FEE_ID VARCHAR(10) NOT NULL PRIMARY KEY,
+                        FEES   BIGINT,
+                        FEES_TYPE  VARCHAR(15),
+                        PAYMENT_START_DATE DATETIME,
+                        PAYMENT_END_DATE   DATETIME) dimension_payment_details.sql 0.06s dimension_payment_details Table CREATED
+2020-07-20 12:53:48,482 - 20744 INFO - create table if not exists dimension_payment_details(FEE_ID VARCHAR(10) NOT NULL PRIMARY KEY,
+                        FEES   BIGINT,
+                        FEES_TYPE  VARCHAR(15),
+                        PAYMENT_START_DATE DATETIME,
+                        PAYMENT_END_DATE   DATETIME) dimension_payment_details.sql 0.06s dimension_payment_details Table CREATED
+2020-07-20 12:53:48,482 - 20744 INFO - create table if not exists dimension_payment_details(FEE_ID VARCHAR(10) NOT NULL PRIMARY KEY,
+                        FEES   BIGINT,
+                        FEES_TYPE  VARCHAR(15),
+                        PAYMENT_START_DATE DATETIME,
+                        PAYMENT_END_DATE   DATETIME) dimension_payment_details.sql 0.06s dimension_payment_details Table CREATED
+2020-07-20 12:53:48,628 - 20744 INFO - create table if not exists dimension_placement_details(COMPANY_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        COMPANY_NAME    VARCHAR(15),
+                        PLACEMENT_VENUE VARCHAR(50),
+                        PLACEMENT_DATE  DATE,
+                        PLACEMENT_START_DATE DATETIME,
+                        PLACEMENT_END_DATE   DATETIME) dimension_placement_details.sql 0.06s dimension_placement_details Table CREATED
+2020-07-20 12:53:48,628 - 20744 INFO - create table if not exists dimension_placement_details(COMPANY_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        COMPANY_NAME    VARCHAR(15),
+                        PLACEMENT_VENUE VARCHAR(50),
+                        PLACEMENT_DATE  DATE,
+                        PLACEMENT_START_DATE DATETIME,
+                        PLACEMENT_END_DATE   DATETIME) dimension_placement_details.sql 0.06s dimension_placement_details Table CREATED
+2020-07-20 12:53:48,628 - 20744 INFO - create table if not exists dimension_placement_details(COMPANY_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        COMPANY_NAME    VARCHAR(15),
+                        PLACEMENT_VENUE VARCHAR(50),
+                        PLACEMENT_DATE  DATE,
+                        PLACEMENT_START_DATE DATETIME,
+                        PLACEMENT_END_DATE   DATETIME) dimension_placement_details.sql 0.06s dimension_placement_details Table CREATED
+2020-07-20 12:53:48,628 - 20744 INFO - create table if not exists dimension_placement_details(COMPANY_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        COMPANY_NAME    VARCHAR(15),
+                        PLACEMENT_VENUE VARCHAR(50),
+                        PLACEMENT_DATE  DATE,
+                        PLACEMENT_START_DATE DATETIME,
+                        PLACEMENT_END_DATE   DATETIME) dimension_placement_details.sql 0.06s dimension_placement_details Table CREATED
+2020-07-20 12:53:48,628 - 20744 INFO - create table if not exists dimension_placement_details(COMPANY_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        COMPANY_NAME    VARCHAR(15),
+                        PLACEMENT_VENUE VARCHAR(50),
+                        PLACEMENT_DATE  DATE,
+                        PLACEMENT_START_DATE DATETIME,
+                        PLACEMENT_END_DATE   DATETIME) dimension_placement_details.sql 0.06s dimension_placement_details Table CREATED
+2020-07-20 12:53:48,628 - 20744 INFO - create table if not exists dimension_placement_details(COMPANY_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        COMPANY_NAME    VARCHAR(15),
+                        PLACEMENT_VENUE VARCHAR(50),
+                        PLACEMENT_DATE  DATE,
+                        PLACEMENT_START_DATE DATETIME,
+                        PLACEMENT_END_DATE   DATETIME) dimension_placement_details.sql 0.06s dimension_placement_details Table CREATED
+2020-07-20 12:53:48,628 - 20744 INFO - create table if not exists dimension_placement_details(COMPANY_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        COMPANY_NAME    VARCHAR(15),
+                        PLACEMENT_VENUE VARCHAR(50),
+                        PLACEMENT_DATE  DATE,
+                        PLACEMENT_START_DATE DATETIME,
+                        PLACEMENT_END_DATE   DATETIME) dimension_placement_details.sql 0.06s dimension_placement_details Table CREATED
+2020-07-20 12:53:48,628 - 20744 INFO - create table if not exists dimension_placement_details(COMPANY_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        COMPANY_NAME    VARCHAR(15),
+                        PLACEMENT_VENUE VARCHAR(50),
+                        PLACEMENT_DATE  DATE,
+                        PLACEMENT_START_DATE DATETIME,
+                        PLACEMENT_END_DATE   DATETIME) dimension_placement_details.sql 0.06s dimension_placement_details Table CREATED
+2020-07-20 12:53:48,628 - 20744 INFO - create table if not exists dimension_placement_details(COMPANY_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        COMPANY_NAME    VARCHAR(15),
+                        PLACEMENT_VENUE VARCHAR(50),
+                        PLACEMENT_DATE  DATE,
+                        PLACEMENT_START_DATE DATETIME,
+                        PLACEMENT_END_DATE   DATETIME) dimension_placement_details.sql 0.06s dimension_placement_details Table CREATED
+2020-07-20 12:53:48,775 - 20744 INFO - create table if not exists dimension_staff_details(STAFF_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        STAFF_NAME VARCHAR(25),
+                        STAFF_DOJ   DATE,
+                        STAFF_START_DATE DATETIME,
+                        STAFF_END_DATE   DATETIME) dimension_staff_details.sql 0.06s dimension_staff_details Table CREATED
+2020-07-20 12:53:48,775 - 20744 INFO - create table if not exists dimension_staff_details(STAFF_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        STAFF_NAME VARCHAR(25),
+                        STAFF_DOJ   DATE,
+                        STAFF_START_DATE DATETIME,
+                        STAFF_END_DATE   DATETIME) dimension_staff_details.sql 0.06s dimension_staff_details Table CREATED
+2020-07-20 12:53:48,775 - 20744 INFO - create table if not exists dimension_staff_details(STAFF_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        STAFF_NAME VARCHAR(25),
+                        STAFF_DOJ   DATE,
+                        STAFF_START_DATE DATETIME,
+                        STAFF_END_DATE   DATETIME) dimension_staff_details.sql 0.06s dimension_staff_details Table CREATED
+2020-07-20 12:53:48,775 - 20744 INFO - create table if not exists dimension_staff_details(STAFF_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        STAFF_NAME VARCHAR(25),
+                        STAFF_DOJ   DATE,
+                        STAFF_START_DATE DATETIME,
+                        STAFF_END_DATE   DATETIME) dimension_staff_details.sql 0.06s dimension_staff_details Table CREATED
+2020-07-20 12:53:48,775 - 20744 INFO - create table if not exists dimension_staff_details(STAFF_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        STAFF_NAME VARCHAR(25),
+                        STAFF_DOJ   DATE,
+                        STAFF_START_DATE DATETIME,
+                        STAFF_END_DATE   DATETIME) dimension_staff_details.sql 0.06s dimension_staff_details Table CREATED
+2020-07-20 12:53:48,775 - 20744 INFO - create table if not exists dimension_staff_details(STAFF_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        STAFF_NAME VARCHAR(25),
+                        STAFF_DOJ   DATE,
+                        STAFF_START_DATE DATETIME,
+                        STAFF_END_DATE   DATETIME) dimension_staff_details.sql 0.06s dimension_staff_details Table CREATED
+2020-07-20 12:53:48,775 - 20744 INFO - create table if not exists dimension_staff_details(STAFF_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        STAFF_NAME VARCHAR(25),
+                        STAFF_DOJ   DATE,
+                        STAFF_START_DATE DATETIME,
+                        STAFF_END_DATE   DATETIME) dimension_staff_details.sql 0.06s dimension_staff_details Table CREATED
+2020-07-20 12:53:48,775 - 20744 INFO - create table if not exists dimension_staff_details(STAFF_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        STAFF_NAME VARCHAR(25),
+                        STAFF_DOJ   DATE,
+                        STAFF_START_DATE DATETIME,
+                        STAFF_END_DATE   DATETIME) dimension_staff_details.sql 0.06s dimension_staff_details Table CREATED
+2020-07-20 12:53:48,775 - 20744 INFO - create table if not exists dimension_staff_details(STAFF_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        STAFF_NAME VARCHAR(25),
+                        STAFF_DOJ   DATE,
+                        STAFF_START_DATE DATETIME,
+                        STAFF_END_DATE   DATETIME) dimension_staff_details.sql 0.06s dimension_staff_details Table CREATED
+2020-07-20 12:53:48,775 - 20744 INFO - create table if not exists dimension_staff_details(STAFF_ID VARCHAR(9) NOT NULL PRIMARY KEY,
+                        STAFF_NAME VARCHAR(25),
+                        STAFF_DOJ   DATE,
+                        STAFF_START_DATE DATETIME,
+                        STAFF_END_DATE   DATETIME) dimension_staff_details.sql 0.06s dimension_staff_details Table CREATED
+2020-07-20 12:53:48,967 - 20744 INFO - create table if not exists fact_academics(STUDENT_ID BIGINT NOT NULL,
+                     DEGREE_ID  BIGINT,
+                     EXAM_ID    INT,
+                     MARKS  INT,
+                     COURSE_ID  VARCHAR(9),
+                     GRADE_ID   CHAR(2),
+                     ACADEMICS_START_DATE DATETIME,
+                     ACADEMICS_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEGREE_ID) REFERENCES dimension_degree_details(DEGREE_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(EXAM_ID) REFERENCES dimension_exam_details(EXAM_ID),
+					 FOREIGN KEY(GRADE_ID) REFERENCES dimension_grade_details(GRADE_ID)) fact_academics.sql 0.12s fact_academics Table CREATED
+2020-07-20 12:53:48,967 - 20744 INFO - create table if not exists fact_academics(STUDENT_ID BIGINT NOT NULL,
+                     DEGREE_ID  BIGINT,
+                     EXAM_ID    INT,
+                     MARKS  INT,
+                     COURSE_ID  VARCHAR(9),
+                     GRADE_ID   CHAR(2),
+                     ACADEMICS_START_DATE DATETIME,
+                     ACADEMICS_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEGREE_ID) REFERENCES dimension_degree_details(DEGREE_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(EXAM_ID) REFERENCES dimension_exam_details(EXAM_ID),
+					 FOREIGN KEY(GRADE_ID) REFERENCES dimension_grade_details(GRADE_ID)) fact_academics.sql 0.12s fact_academics Table CREATED
+2020-07-20 12:53:48,967 - 20744 INFO - create table if not exists fact_academics(STUDENT_ID BIGINT NOT NULL,
+                     DEGREE_ID  BIGINT,
+                     EXAM_ID    INT,
+                     MARKS  INT,
+                     COURSE_ID  VARCHAR(9),
+                     GRADE_ID   CHAR(2),
+                     ACADEMICS_START_DATE DATETIME,
+                     ACADEMICS_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEGREE_ID) REFERENCES dimension_degree_details(DEGREE_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(EXAM_ID) REFERENCES dimension_exam_details(EXAM_ID),
+					 FOREIGN KEY(GRADE_ID) REFERENCES dimension_grade_details(GRADE_ID)) fact_academics.sql 0.12s fact_academics Table CREATED
+2020-07-20 12:53:48,967 - 20744 INFO - create table if not exists fact_academics(STUDENT_ID BIGINT NOT NULL,
+                     DEGREE_ID  BIGINT,
+                     EXAM_ID    INT,
+                     MARKS  INT,
+                     COURSE_ID  VARCHAR(9),
+                     GRADE_ID   CHAR(2),
+                     ACADEMICS_START_DATE DATETIME,
+                     ACADEMICS_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEGREE_ID) REFERENCES dimension_degree_details(DEGREE_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(EXAM_ID) REFERENCES dimension_exam_details(EXAM_ID),
+					 FOREIGN KEY(GRADE_ID) REFERENCES dimension_grade_details(GRADE_ID)) fact_academics.sql 0.12s fact_academics Table CREATED
+2020-07-20 12:53:48,967 - 20744 INFO - create table if not exists fact_academics(STUDENT_ID BIGINT NOT NULL,
+                     DEGREE_ID  BIGINT,
+                     EXAM_ID    INT,
+                     MARKS  INT,
+                     COURSE_ID  VARCHAR(9),
+                     GRADE_ID   CHAR(2),
+                     ACADEMICS_START_DATE DATETIME,
+                     ACADEMICS_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEGREE_ID) REFERENCES dimension_degree_details(DEGREE_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(EXAM_ID) REFERENCES dimension_exam_details(EXAM_ID),
+					 FOREIGN KEY(GRADE_ID) REFERENCES dimension_grade_details(GRADE_ID)) fact_academics.sql 0.12s fact_academics Table CREATED
+2020-07-20 12:53:48,967 - 20744 INFO - create table if not exists fact_academics(STUDENT_ID BIGINT NOT NULL,
+                     DEGREE_ID  BIGINT,
+                     EXAM_ID    INT,
+                     MARKS  INT,
+                     COURSE_ID  VARCHAR(9),
+                     GRADE_ID   CHAR(2),
+                     ACADEMICS_START_DATE DATETIME,
+                     ACADEMICS_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEGREE_ID) REFERENCES dimension_degree_details(DEGREE_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(EXAM_ID) REFERENCES dimension_exam_details(EXAM_ID),
+					 FOREIGN KEY(GRADE_ID) REFERENCES dimension_grade_details(GRADE_ID)) fact_academics.sql 0.12s fact_academics Table CREATED
+2020-07-20 12:53:48,967 - 20744 INFO - create table if not exists fact_academics(STUDENT_ID BIGINT NOT NULL,
+                     DEGREE_ID  BIGINT,
+                     EXAM_ID    INT,
+                     MARKS  INT,
+                     COURSE_ID  VARCHAR(9),
+                     GRADE_ID   CHAR(2),
+                     ACADEMICS_START_DATE DATETIME,
+                     ACADEMICS_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEGREE_ID) REFERENCES dimension_degree_details(DEGREE_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(EXAM_ID) REFERENCES dimension_exam_details(EXAM_ID),
+					 FOREIGN KEY(GRADE_ID) REFERENCES dimension_grade_details(GRADE_ID)) fact_academics.sql 0.12s fact_academics Table CREATED
+2020-07-20 12:53:48,967 - 20744 INFO - create table if not exists fact_academics(STUDENT_ID BIGINT NOT NULL,
+                     DEGREE_ID  BIGINT,
+                     EXAM_ID    INT,
+                     MARKS  INT,
+                     COURSE_ID  VARCHAR(9),
+                     GRADE_ID   CHAR(2),
+                     ACADEMICS_START_DATE DATETIME,
+                     ACADEMICS_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEGREE_ID) REFERENCES dimension_degree_details(DEGREE_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(EXAM_ID) REFERENCES dimension_exam_details(EXAM_ID),
+					 FOREIGN KEY(GRADE_ID) REFERENCES dimension_grade_details(GRADE_ID)) fact_academics.sql 0.12s fact_academics Table CREATED
+2020-07-20 12:53:48,967 - 20744 INFO - create table if not exists fact_academics(STUDENT_ID BIGINT NOT NULL,
+                     DEGREE_ID  BIGINT,
+                     EXAM_ID    INT,
+                     MARKS  INT,
+                     COURSE_ID  VARCHAR(9),
+                     GRADE_ID   CHAR(2),
+                     ACADEMICS_START_DATE DATETIME,
+                     ACADEMICS_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEGREE_ID) REFERENCES dimension_degree_details(DEGREE_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(EXAM_ID) REFERENCES dimension_exam_details(EXAM_ID),
+					 FOREIGN KEY(GRADE_ID) REFERENCES dimension_grade_details(GRADE_ID)) fact_academics.sql 0.12s fact_academics Table CREATED
+2020-07-20 12:53:48,967 - 20744 INFO - create table if not exists fact_academics(STUDENT_ID BIGINT NOT NULL,
+                     DEGREE_ID  BIGINT,
+                     EXAM_ID    INT,
+                     MARKS  INT,
+                     COURSE_ID  VARCHAR(9),
+                     GRADE_ID   CHAR(2),
+                     ACADEMICS_START_DATE DATETIME,
+                     ACADEMICS_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEGREE_ID) REFERENCES dimension_degree_details(DEGREE_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(EXAM_ID) REFERENCES dimension_exam_details(EXAM_ID),
+					 FOREIGN KEY(GRADE_ID) REFERENCES dimension_grade_details(GRADE_ID)) fact_academics.sql 0.12s fact_academics Table CREATED
+2020-07-20 12:53:48,967 - 20744 INFO - create table if not exists fact_academics(STUDENT_ID BIGINT NOT NULL,
+                     DEGREE_ID  BIGINT,
+                     EXAM_ID    INT,
+                     MARKS  INT,
+                     COURSE_ID  VARCHAR(9),
+                     GRADE_ID   CHAR(2),
+                     ACADEMICS_START_DATE DATETIME,
+                     ACADEMICS_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEGREE_ID) REFERENCES dimension_degree_details(DEGREE_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(EXAM_ID) REFERENCES dimension_exam_details(EXAM_ID),
+					 FOREIGN KEY(GRADE_ID) REFERENCES dimension_grade_details(GRADE_ID)) fact_academics.sql 0.12s fact_academics Table CREATED
+2020-07-20 12:53:49,129 - 20744 INFO - create table if not exists fact_attendence(STUDENT_ID BIGINT NOT NULL,
+                     TIME_ID    VARCHAR(5),
+                     CURDATE    DATE,
+                     COURSE_ID  VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     ATTENDENCE VARCHAR(5),
+                     ATTENDENCE_START_DATE DATETIME,
+                     ATTENDENCE_END_DATE   DATETIME,
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(STAFF_ID) REFERENCES dimension_staff_details(STAFF_ID)) fact_attendence.sql 0.09s fact_attendence Table CREATED
+2020-07-20 12:53:49,129 - 20744 INFO - create table if not exists fact_attendence(STUDENT_ID BIGINT NOT NULL,
+                     TIME_ID    VARCHAR(5),
+                     CURDATE    DATE,
+                     COURSE_ID  VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     ATTENDENCE VARCHAR(5),
+                     ATTENDENCE_START_DATE DATETIME,
+                     ATTENDENCE_END_DATE   DATETIME,
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(STAFF_ID) REFERENCES dimension_staff_details(STAFF_ID)) fact_attendence.sql 0.09s fact_attendence Table CREATED
+2020-07-20 12:53:49,129 - 20744 INFO - create table if not exists fact_attendence(STUDENT_ID BIGINT NOT NULL,
+                     TIME_ID    VARCHAR(5),
+                     CURDATE    DATE,
+                     COURSE_ID  VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     ATTENDENCE VARCHAR(5),
+                     ATTENDENCE_START_DATE DATETIME,
+                     ATTENDENCE_END_DATE   DATETIME,
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(STAFF_ID) REFERENCES dimension_staff_details(STAFF_ID)) fact_attendence.sql 0.09s fact_attendence Table CREATED
+2020-07-20 12:53:49,129 - 20744 INFO - create table if not exists fact_attendence(STUDENT_ID BIGINT NOT NULL,
+                     TIME_ID    VARCHAR(5),
+                     CURDATE    DATE,
+                     COURSE_ID  VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     ATTENDENCE VARCHAR(5),
+                     ATTENDENCE_START_DATE DATETIME,
+                     ATTENDENCE_END_DATE   DATETIME,
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(STAFF_ID) REFERENCES dimension_staff_details(STAFF_ID)) fact_attendence.sql 0.09s fact_attendence Table CREATED
+2020-07-20 12:53:49,129 - 20744 INFO - create table if not exists fact_attendence(STUDENT_ID BIGINT NOT NULL,
+                     TIME_ID    VARCHAR(5),
+                     CURDATE    DATE,
+                     COURSE_ID  VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     ATTENDENCE VARCHAR(5),
+                     ATTENDENCE_START_DATE DATETIME,
+                     ATTENDENCE_END_DATE   DATETIME,
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(STAFF_ID) REFERENCES dimension_staff_details(STAFF_ID)) fact_attendence.sql 0.09s fact_attendence Table CREATED
+2020-07-20 12:53:49,129 - 20744 INFO - create table if not exists fact_attendence(STUDENT_ID BIGINT NOT NULL,
+                     TIME_ID    VARCHAR(5),
+                     CURDATE    DATE,
+                     COURSE_ID  VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     ATTENDENCE VARCHAR(5),
+                     ATTENDENCE_START_DATE DATETIME,
+                     ATTENDENCE_END_DATE   DATETIME,
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(STAFF_ID) REFERENCES dimension_staff_details(STAFF_ID)) fact_attendence.sql 0.09s fact_attendence Table CREATED
+2020-07-20 12:53:49,129 - 20744 INFO - create table if not exists fact_attendence(STUDENT_ID BIGINT NOT NULL,
+                     TIME_ID    VARCHAR(5),
+                     CURDATE    DATE,
+                     COURSE_ID  VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     ATTENDENCE VARCHAR(5),
+                     ATTENDENCE_START_DATE DATETIME,
+                     ATTENDENCE_END_DATE   DATETIME,
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(STAFF_ID) REFERENCES dimension_staff_details(STAFF_ID)) fact_attendence.sql 0.09s fact_attendence Table CREATED
+2020-07-20 12:53:49,129 - 20744 INFO - create table if not exists fact_attendence(STUDENT_ID BIGINT NOT NULL,
+                     TIME_ID    VARCHAR(5),
+                     CURDATE    DATE,
+                     COURSE_ID  VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     ATTENDENCE VARCHAR(5),
+                     ATTENDENCE_START_DATE DATETIME,
+                     ATTENDENCE_END_DATE   DATETIME,
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(STAFF_ID) REFERENCES dimension_staff_details(STAFF_ID)) fact_attendence.sql 0.09s fact_attendence Table CREATED
+2020-07-20 12:53:49,129 - 20744 INFO - create table if not exists fact_attendence(STUDENT_ID BIGINT NOT NULL,
+                     TIME_ID    VARCHAR(5),
+                     CURDATE    DATE,
+                     COURSE_ID  VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     ATTENDENCE VARCHAR(5),
+                     ATTENDENCE_START_DATE DATETIME,
+                     ATTENDENCE_END_DATE   DATETIME,
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(STAFF_ID) REFERENCES dimension_staff_details(STAFF_ID)) fact_attendence.sql 0.09s fact_attendence Table CREATED
+2020-07-20 12:53:49,129 - 20744 INFO - create table if not exists fact_attendence(STUDENT_ID BIGINT NOT NULL,
+                     TIME_ID    VARCHAR(5),
+                     CURDATE    DATE,
+                     COURSE_ID  VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     ATTENDENCE VARCHAR(5),
+                     ATTENDENCE_START_DATE DATETIME,
+                     ATTENDENCE_END_DATE   DATETIME,
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(STAFF_ID) REFERENCES dimension_staff_details(STAFF_ID)) fact_attendence.sql 0.09s fact_attendence Table CREATED
+2020-07-20 12:53:49,129 - 20744 INFO - create table if not exists fact_attendence(STUDENT_ID BIGINT NOT NULL,
+                     TIME_ID    VARCHAR(5),
+                     CURDATE    DATE,
+                     COURSE_ID  VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     ATTENDENCE VARCHAR(5),
+                     ATTENDENCE_START_DATE DATETIME,
+                     ATTENDENCE_END_DATE   DATETIME,
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(STAFF_ID) REFERENCES dimension_staff_details(STAFF_ID)) fact_attendence.sql 0.09s fact_attendence Table CREATED
+2020-07-20 12:53:49,129 - 20744 INFO - create table if not exists fact_attendence(STUDENT_ID BIGINT NOT NULL,
+                     TIME_ID    VARCHAR(5),
+                     CURDATE    DATE,
+                     COURSE_ID  VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     ATTENDENCE VARCHAR(5),
+                     ATTENDENCE_START_DATE DATETIME,
+                     ATTENDENCE_END_DATE   DATETIME,
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(STAFF_ID) REFERENCES dimension_staff_details(STAFF_ID)) fact_attendence.sql 0.09s fact_attendence Table CREATED
+2020-07-20 12:53:49,285 - 20744 INFO - create table if not exists fact_payment(STUDENT_ID BIGINT NOT NULL,
+                     FEE_ID    VARCHAR(10)   NOT NULL,
+                     PAYMENT_ID VARCHAR(9),
+                     PAYMENT_FACT_START_DATE DATETIME,
+                     PAYMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(FEE_ID) REFERENCES dimension_payment_details(FEE_ID)) fact_payment.sql 0.09s fact_payment Table CREATED
+2020-07-20 12:53:49,285 - 20744 INFO - create table if not exists fact_payment(STUDENT_ID BIGINT NOT NULL,
+                     FEE_ID    VARCHAR(10)   NOT NULL,
+                     PAYMENT_ID VARCHAR(9),
+                     PAYMENT_FACT_START_DATE DATETIME,
+                     PAYMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(FEE_ID) REFERENCES dimension_payment_details(FEE_ID)) fact_payment.sql 0.09s fact_payment Table CREATED
+2020-07-20 12:53:49,285 - 20744 INFO - create table if not exists fact_payment(STUDENT_ID BIGINT NOT NULL,
+                     FEE_ID    VARCHAR(10)   NOT NULL,
+                     PAYMENT_ID VARCHAR(9),
+                     PAYMENT_FACT_START_DATE DATETIME,
+                     PAYMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(FEE_ID) REFERENCES dimension_payment_details(FEE_ID)) fact_payment.sql 0.09s fact_payment Table CREATED
+2020-07-20 12:53:49,285 - 20744 INFO - create table if not exists fact_payment(STUDENT_ID BIGINT NOT NULL,
+                     FEE_ID    VARCHAR(10)   NOT NULL,
+                     PAYMENT_ID VARCHAR(9),
+                     PAYMENT_FACT_START_DATE DATETIME,
+                     PAYMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(FEE_ID) REFERENCES dimension_payment_details(FEE_ID)) fact_payment.sql 0.09s fact_payment Table CREATED
+2020-07-20 12:53:49,285 - 20744 INFO - create table if not exists fact_payment(STUDENT_ID BIGINT NOT NULL,
+                     FEE_ID    VARCHAR(10)   NOT NULL,
+                     PAYMENT_ID VARCHAR(9),
+                     PAYMENT_FACT_START_DATE DATETIME,
+                     PAYMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(FEE_ID) REFERENCES dimension_payment_details(FEE_ID)) fact_payment.sql 0.09s fact_payment Table CREATED
+2020-07-20 12:53:49,285 - 20744 INFO - create table if not exists fact_payment(STUDENT_ID BIGINT NOT NULL,
+                     FEE_ID    VARCHAR(10)   NOT NULL,
+                     PAYMENT_ID VARCHAR(9),
+                     PAYMENT_FACT_START_DATE DATETIME,
+                     PAYMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(FEE_ID) REFERENCES dimension_payment_details(FEE_ID)) fact_payment.sql 0.09s fact_payment Table CREATED
+2020-07-20 12:53:49,285 - 20744 INFO - create table if not exists fact_payment(STUDENT_ID BIGINT NOT NULL,
+                     FEE_ID    VARCHAR(10)   NOT NULL,
+                     PAYMENT_ID VARCHAR(9),
+                     PAYMENT_FACT_START_DATE DATETIME,
+                     PAYMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(FEE_ID) REFERENCES dimension_payment_details(FEE_ID)) fact_payment.sql 0.09s fact_payment Table CREATED
+2020-07-20 12:53:49,285 - 20744 INFO - create table if not exists fact_payment(STUDENT_ID BIGINT NOT NULL,
+                     FEE_ID    VARCHAR(10)   NOT NULL,
+                     PAYMENT_ID VARCHAR(9),
+                     PAYMENT_FACT_START_DATE DATETIME,
+                     PAYMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(FEE_ID) REFERENCES dimension_payment_details(FEE_ID)) fact_payment.sql 0.09s fact_payment Table CREATED
+2020-07-20 12:53:49,285 - 20744 INFO - create table if not exists fact_payment(STUDENT_ID BIGINT NOT NULL,
+                     FEE_ID    VARCHAR(10)   NOT NULL,
+                     PAYMENT_ID VARCHAR(9),
+                     PAYMENT_FACT_START_DATE DATETIME,
+                     PAYMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(FEE_ID) REFERENCES dimension_payment_details(FEE_ID)) fact_payment.sql 0.09s fact_payment Table CREATED
+2020-07-20 12:53:49,285 - 20744 INFO - create table if not exists fact_payment(STUDENT_ID BIGINT NOT NULL,
+                     FEE_ID    VARCHAR(10)   NOT NULL,
+                     PAYMENT_ID VARCHAR(9),
+                     PAYMENT_FACT_START_DATE DATETIME,
+                     PAYMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(FEE_ID) REFERENCES dimension_payment_details(FEE_ID)) fact_payment.sql 0.09s fact_payment Table CREATED
+2020-07-20 12:53:49,285 - 20744 INFO - create table if not exists fact_payment(STUDENT_ID BIGINT NOT NULL,
+                     FEE_ID    VARCHAR(10)   NOT NULL,
+                     PAYMENT_ID VARCHAR(9),
+                     PAYMENT_FACT_START_DATE DATETIME,
+                     PAYMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(FEE_ID) REFERENCES dimension_payment_details(FEE_ID)) fact_payment.sql 0.09s fact_payment Table CREATED
+2020-07-20 12:53:49,285 - 20744 INFO - create table if not exists fact_payment(STUDENT_ID BIGINT NOT NULL,
+                     FEE_ID    VARCHAR(10)   NOT NULL,
+                     PAYMENT_ID VARCHAR(9),
+                     PAYMENT_FACT_START_DATE DATETIME,
+                     PAYMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(FEE_ID) REFERENCES dimension_payment_details(FEE_ID)) fact_payment.sql 0.09s fact_payment Table CREATED
+2020-07-20 12:53:49,285 - 20744 INFO - create table if not exists fact_payment(STUDENT_ID BIGINT NOT NULL,
+                     FEE_ID    VARCHAR(10)   NOT NULL,
+                     PAYMENT_ID VARCHAR(9),
+                     PAYMENT_FACT_START_DATE DATETIME,
+                     PAYMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(FEE_ID) REFERENCES dimension_payment_details(FEE_ID)) fact_payment.sql 0.09s fact_payment Table CREATED
+2020-07-20 12:53:49,452 - 20744 INFO - create table if not exists fact_placement(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9),
+                     COMPANY_ID VARCHAR(9),
+                     HIRED  VARCHAR(5),
+                     PLACEMENT_FACT_START_DATE DATETIME,
+                     PLACEMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COMPANY_ID) REFERENCES dimension_placement_details(COMPANY_ID)) fact_placement.sql 0.1s fact_placement Table CREATED
+2020-07-20 12:53:49,452 - 20744 INFO - create table if not exists fact_placement(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9),
+                     COMPANY_ID VARCHAR(9),
+                     HIRED  VARCHAR(5),
+                     PLACEMENT_FACT_START_DATE DATETIME,
+                     PLACEMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COMPANY_ID) REFERENCES dimension_placement_details(COMPANY_ID)) fact_placement.sql 0.1s fact_placement Table CREATED
+2020-07-20 12:53:49,452 - 20744 INFO - create table if not exists fact_placement(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9),
+                     COMPANY_ID VARCHAR(9),
+                     HIRED  VARCHAR(5),
+                     PLACEMENT_FACT_START_DATE DATETIME,
+                     PLACEMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COMPANY_ID) REFERENCES dimension_placement_details(COMPANY_ID)) fact_placement.sql 0.1s fact_placement Table CREATED
+2020-07-20 12:53:49,452 - 20744 INFO - create table if not exists fact_placement(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9),
+                     COMPANY_ID VARCHAR(9),
+                     HIRED  VARCHAR(5),
+                     PLACEMENT_FACT_START_DATE DATETIME,
+                     PLACEMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COMPANY_ID) REFERENCES dimension_placement_details(COMPANY_ID)) fact_placement.sql 0.1s fact_placement Table CREATED
+2020-07-20 12:53:49,452 - 20744 INFO - create table if not exists fact_placement(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9),
+                     COMPANY_ID VARCHAR(9),
+                     HIRED  VARCHAR(5),
+                     PLACEMENT_FACT_START_DATE DATETIME,
+                     PLACEMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COMPANY_ID) REFERENCES dimension_placement_details(COMPANY_ID)) fact_placement.sql 0.1s fact_placement Table CREATED
+2020-07-20 12:53:49,452 - 20744 INFO - create table if not exists fact_placement(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9),
+                     COMPANY_ID VARCHAR(9),
+                     HIRED  VARCHAR(5),
+                     PLACEMENT_FACT_START_DATE DATETIME,
+                     PLACEMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COMPANY_ID) REFERENCES dimension_placement_details(COMPANY_ID)) fact_placement.sql 0.1s fact_placement Table CREATED
+2020-07-20 12:53:49,452 - 20744 INFO - create table if not exists fact_placement(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9),
+                     COMPANY_ID VARCHAR(9),
+                     HIRED  VARCHAR(5),
+                     PLACEMENT_FACT_START_DATE DATETIME,
+                     PLACEMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COMPANY_ID) REFERENCES dimension_placement_details(COMPANY_ID)) fact_placement.sql 0.1s fact_placement Table CREATED
+2020-07-20 12:53:49,452 - 20744 INFO - create table if not exists fact_placement(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9),
+                     COMPANY_ID VARCHAR(9),
+                     HIRED  VARCHAR(5),
+                     PLACEMENT_FACT_START_DATE DATETIME,
+                     PLACEMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COMPANY_ID) REFERENCES dimension_placement_details(COMPANY_ID)) fact_placement.sql 0.1s fact_placement Table CREATED
+2020-07-20 12:53:49,452 - 20744 INFO - create table if not exists fact_placement(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9),
+                     COMPANY_ID VARCHAR(9),
+                     HIRED  VARCHAR(5),
+                     PLACEMENT_FACT_START_DATE DATETIME,
+                     PLACEMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COMPANY_ID) REFERENCES dimension_placement_details(COMPANY_ID)) fact_placement.sql 0.1s fact_placement Table CREATED
+2020-07-20 12:53:49,452 - 20744 INFO - create table if not exists fact_placement(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9),
+                     COMPANY_ID VARCHAR(9),
+                     HIRED  VARCHAR(5),
+                     PLACEMENT_FACT_START_DATE DATETIME,
+                     PLACEMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COMPANY_ID) REFERENCES dimension_placement_details(COMPANY_ID)) fact_placement.sql 0.1s fact_placement Table CREATED
+2020-07-20 12:53:49,452 - 20744 INFO - create table if not exists fact_placement(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9),
+                     COMPANY_ID VARCHAR(9),
+                     HIRED  VARCHAR(5),
+                     PLACEMENT_FACT_START_DATE DATETIME,
+                     PLACEMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COMPANY_ID) REFERENCES dimension_placement_details(COMPANY_ID)) fact_placement.sql 0.1s fact_placement Table CREATED
+2020-07-20 12:53:49,452 - 20744 INFO - create table if not exists fact_placement(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9),
+                     COMPANY_ID VARCHAR(9),
+                     HIRED  VARCHAR(5),
+                     PLACEMENT_FACT_START_DATE DATETIME,
+                     PLACEMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COMPANY_ID) REFERENCES dimension_placement_details(COMPANY_ID)) fact_placement.sql 0.1s fact_placement Table CREATED
+2020-07-20 12:53:49,452 - 20744 INFO - create table if not exists fact_placement(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9),
+                     COMPANY_ID VARCHAR(9),
+                     HIRED  VARCHAR(5),
+                     PLACEMENT_FACT_START_DATE DATETIME,
+                     PLACEMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COMPANY_ID) REFERENCES dimension_placement_details(COMPANY_ID)) fact_placement.sql 0.1s fact_placement Table CREATED
+2020-07-20 12:53:49,452 - 20744 INFO - create table if not exists fact_placement(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9),
+                     COMPANY_ID VARCHAR(9),
+                     HIRED  VARCHAR(5),
+                     PLACEMENT_FACT_START_DATE DATETIME,
+                     PLACEMENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(STUDENT_ID) REFERENCES details_main (STUDENT_ID),
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COMPANY_ID) REFERENCES dimension_placement_details(COMPANY_ID)) fact_placement.sql 0.1s fact_placement Table CREATED
+2020-07-20 12:53:49,645 - 20744 INFO - create table if not exists fact_student(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9)   NOT NULL,
+                     COURSE_ID VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     STUDENT_FACT_START_DATE DATETIME,
+                     STUDENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main(STUDENT_ID)) fact_student.sql 0.09s fact_student Table CREATED
+2020-07-20 12:53:49,645 - 20744 INFO - create table if not exists fact_student(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9)   NOT NULL,
+                     COURSE_ID VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     STUDENT_FACT_START_DATE DATETIME,
+                     STUDENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main(STUDENT_ID)) fact_student.sql 0.09s fact_student Table CREATED
+2020-07-20 12:53:49,645 - 20744 INFO - create table if not exists fact_student(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9)   NOT NULL,
+                     COURSE_ID VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     STUDENT_FACT_START_DATE DATETIME,
+                     STUDENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main(STUDENT_ID)) fact_student.sql 0.09s fact_student Table CREATED
+2020-07-20 12:53:49,645 - 20744 INFO - create table if not exists fact_student(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9)   NOT NULL,
+                     COURSE_ID VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     STUDENT_FACT_START_DATE DATETIME,
+                     STUDENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main(STUDENT_ID)) fact_student.sql 0.09s fact_student Table CREATED
+2020-07-20 12:53:49,645 - 20744 INFO - create table if not exists fact_student(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9)   NOT NULL,
+                     COURSE_ID VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     STUDENT_FACT_START_DATE DATETIME,
+                     STUDENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main(STUDENT_ID)) fact_student.sql 0.09s fact_student Table CREATED
+2020-07-20 12:53:49,645 - 20744 INFO - create table if not exists fact_student(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9)   NOT NULL,
+                     COURSE_ID VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     STUDENT_FACT_START_DATE DATETIME,
+                     STUDENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main(STUDENT_ID)) fact_student.sql 0.09s fact_student Table CREATED
+2020-07-20 12:53:49,645 - 20744 INFO - create table if not exists fact_student(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9)   NOT NULL,
+                     COURSE_ID VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     STUDENT_FACT_START_DATE DATETIME,
+                     STUDENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main(STUDENT_ID)) fact_student.sql 0.09s fact_student Table CREATED
+2020-07-20 12:53:49,645 - 20744 INFO - create table if not exists fact_student(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9)   NOT NULL,
+                     COURSE_ID VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     STUDENT_FACT_START_DATE DATETIME,
+                     STUDENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main(STUDENT_ID)) fact_student.sql 0.09s fact_student Table CREATED
+2020-07-20 12:53:49,645 - 20744 INFO - create table if not exists fact_student(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9)   NOT NULL,
+                     COURSE_ID VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     STUDENT_FACT_START_DATE DATETIME,
+                     STUDENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main(STUDENT_ID)) fact_student.sql 0.09s fact_student Table CREATED
+2020-07-20 12:53:49,645 - 20744 INFO - create table if not exists fact_student(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9)   NOT NULL,
+                     COURSE_ID VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     STUDENT_FACT_START_DATE DATETIME,
+                     STUDENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main(STUDENT_ID)) fact_student.sql 0.09s fact_student Table CREATED
+2020-07-20 12:53:49,645 - 20744 INFO - create table if not exists fact_student(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9)   NOT NULL,
+                     COURSE_ID VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     STUDENT_FACT_START_DATE DATETIME,
+                     STUDENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main(STUDENT_ID)) fact_student.sql 0.09s fact_student Table CREATED
+2020-07-20 12:53:49,645 - 20744 INFO - create table if not exists fact_student(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9)   NOT NULL,
+                     COURSE_ID VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     STUDENT_FACT_START_DATE DATETIME,
+                     STUDENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main(STUDENT_ID)) fact_student.sql 0.09s fact_student Table CREATED
+2020-07-20 12:53:49,645 - 20744 INFO - create table if not exists fact_student(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9)   NOT NULL,
+                     COURSE_ID VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     STUDENT_FACT_START_DATE DATETIME,
+                     STUDENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main(STUDENT_ID)) fact_student.sql 0.09s fact_student Table CREATED
+2020-07-20 12:53:49,645 - 20744 INFO - create table if not exists fact_student(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9)   NOT NULL,
+                     COURSE_ID VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     STUDENT_FACT_START_DATE DATETIME,
+                     STUDENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main(STUDENT_ID)) fact_student.sql 0.09s fact_student Table CREATED
+2020-07-20 12:53:49,645 - 20744 INFO - create table if not exists fact_student(STUDENT_ID BIGINT NOT NULL,
+                     DEP_ID    VARCHAR(9)   NOT NULL,
+                     COURSE_ID VARCHAR(9),
+                     STAFF_ID   VARCHAR(9),
+                     STUDENT_FACT_START_DATE DATETIME,
+                     STUDENT_FACT_END_DATE   DATETIME,
+					 FOREIGN KEY(DEP_ID) REFERENCES dimension_department_details(DEP_ID),
+					 FOREIGN KEY(COURSE_ID) REFERENCES dimension_course_details(COURSE_ID),
+					 FOREIGN KEY (STUDENT_ID) REFERENCES details_main(STUDENT_ID)) fact_student.sql 0.09s fact_student Table CREATED
+2020-07-20 12:54:23,580 - 1984 INFO - details_main Records Inserted
+2020-07-20 12:54:23,704 - 1984 INFO - dimension_calender_details Records Inserted
+2020-07-20 12:54:23,704 - 1984 INFO - dimension_calender_details Records Inserted
+2020-07-20 12:54:23,904 - 1984 INFO - dimension_course_details Records Inserted
+2020-07-20 12:54:23,904 - 1984 INFO - dimension_course_details Records Inserted
+2020-07-20 12:54:23,904 - 1984 INFO - dimension_course_details Records Inserted
+2020-07-20 12:54:23,984 - 1984 INFO - dimension_degree_details Records Inserted
+2020-07-20 12:54:23,984 - 1984 INFO - dimension_degree_details Records Inserted
+2020-07-20 12:54:23,984 - 1984 INFO - dimension_degree_details Records Inserted
+2020-07-20 12:54:23,984 - 1984 INFO - dimension_degree_details Records Inserted
+2020-07-20 12:54:24,059 - 1984 INFO - dimension_department_details Records Inserted
+2020-07-20 12:54:24,059 - 1984 INFO - dimension_department_details Records Inserted
+2020-07-20 12:54:24,059 - 1984 INFO - dimension_department_details Records Inserted
+2020-07-20 12:54:24,059 - 1984 INFO - dimension_department_details Records Inserted
+2020-07-20 12:54:24,059 - 1984 INFO - dimension_department_details Records Inserted
+2020-07-20 12:54:24,164 - 1984 INFO - dimension_exam_details Records Inserted
+2020-07-20 12:54:24,164 - 1984 INFO - dimension_exam_details Records Inserted
+2020-07-20 12:54:24,164 - 1984 INFO - dimension_exam_details Records Inserted
+2020-07-20 12:54:24,164 - 1984 INFO - dimension_exam_details Records Inserted
+2020-07-20 12:54:24,164 - 1984 INFO - dimension_exam_details Records Inserted
+2020-07-20 12:54:24,164 - 1984 INFO - dimension_exam_details Records Inserted
+2020-07-20 12:54:24,283 - 1984 INFO - dimension_grade_details Records Inserted
+2020-07-20 12:54:24,283 - 1984 INFO - dimension_grade_details Records Inserted
+2020-07-20 12:54:24,283 - 1984 INFO - dimension_grade_details Records Inserted
+2020-07-20 12:54:24,283 - 1984 INFO - dimension_grade_details Records Inserted
+2020-07-20 12:54:24,283 - 1984 INFO - dimension_grade_details Records Inserted
+2020-07-20 12:54:24,283 - 1984 INFO - dimension_grade_details Records Inserted
+2020-07-20 12:54:24,283 - 1984 INFO - dimension_grade_details Records Inserted
+2020-07-20 12:54:24,402 - 1984 INFO - dimension_payment_details Records Inserted
+2020-07-20 12:54:24,402 - 1984 INFO - dimension_payment_details Records Inserted
+2020-07-20 12:54:24,402 - 1984 INFO - dimension_payment_details Records Inserted
+2020-07-20 12:54:24,402 - 1984 INFO - dimension_payment_details Records Inserted
+2020-07-20 12:54:24,402 - 1984 INFO - dimension_payment_details Records Inserted
+2020-07-20 12:54:24,402 - 1984 INFO - dimension_payment_details Records Inserted
+2020-07-20 12:54:24,402 - 1984 INFO - dimension_payment_details Records Inserted
+2020-07-20 12:54:24,402 - 1984 INFO - dimension_payment_details Records Inserted
+2020-07-20 12:54:24,497 - 1984 INFO - dimension_placement_details Records Inserted
+2020-07-20 12:54:24,497 - 1984 INFO - dimension_placement_details Records Inserted
+2020-07-20 12:54:24,497 - 1984 INFO - dimension_placement_details Records Inserted
+2020-07-20 12:54:24,497 - 1984 INFO - dimension_placement_details Records Inserted
+2020-07-20 12:54:24,497 - 1984 INFO - dimension_placement_details Records Inserted
+2020-07-20 12:54:24,497 - 1984 INFO - dimension_placement_details Records Inserted
+2020-07-20 12:54:24,497 - 1984 INFO - dimension_placement_details Records Inserted
+2020-07-20 12:54:24,497 - 1984 INFO - dimension_placement_details Records Inserted
+2020-07-20 12:54:24,497 - 1984 INFO - dimension_placement_details Records Inserted
+2020-07-20 12:54:24,670 - 1984 INFO - dimension_staff_details Records Inserted
+2020-07-20 12:54:24,670 - 1984 INFO - dimension_staff_details Records Inserted
+2020-07-20 12:54:24,670 - 1984 INFO - dimension_staff_details Records Inserted
+2020-07-20 12:54:24,670 - 1984 INFO - dimension_staff_details Records Inserted
+2020-07-20 12:54:24,670 - 1984 INFO - dimension_staff_details Records Inserted
+2020-07-20 12:54:24,670 - 1984 INFO - dimension_staff_details Records Inserted
+2020-07-20 12:54:24,670 - 1984 INFO - dimension_staff_details Records Inserted
+2020-07-20 12:54:24,670 - 1984 INFO - dimension_staff_details Records Inserted
+2020-07-20 12:54:24,670 - 1984 INFO - dimension_staff_details Records Inserted
+2020-07-20 12:54:24,670 - 1984 INFO - dimension_staff_details Records Inserted
+2020-07-20 12:54:24,909 - 1984 INFO - fact_academics Records Inserted
+2020-07-20 12:54:24,909 - 1984 INFO - fact_academics Records Inserted
+2020-07-20 12:54:24,909 - 1984 INFO - fact_academics Records Inserted
+2020-07-20 12:54:24,909 - 1984 INFO - fact_academics Records Inserted
+2020-07-20 12:54:24,909 - 1984 INFO - fact_academics Records Inserted
+2020-07-20 12:54:24,909 - 1984 INFO - fact_academics Records Inserted
+2020-07-20 12:54:24,909 - 1984 INFO - fact_academics Records Inserted
+2020-07-20 12:54:24,909 - 1984 INFO - fact_academics Records Inserted
+2020-07-20 12:54:24,909 - 1984 INFO - fact_academics Records Inserted
+2020-07-20 12:54:24,909 - 1984 INFO - fact_academics Records Inserted
+2020-07-20 12:54:24,909 - 1984 INFO - fact_academics Records Inserted
+2020-07-20 12:54:25,244 - 1984 INFO - fact_attendence Records Inserted
+2020-07-20 12:54:25,244 - 1984 INFO - fact_attendence Records Inserted
+2020-07-20 12:54:25,244 - 1984 INFO - fact_attendence Records Inserted
+2020-07-20 12:54:25,244 - 1984 INFO - fact_attendence Records Inserted
+2020-07-20 12:54:25,244 - 1984 INFO - fact_attendence Records Inserted
+2020-07-20 12:54:25,244 - 1984 INFO - fact_attendence Records Inserted
+2020-07-20 12:54:25,244 - 1984 INFO - fact_attendence Records Inserted
+2020-07-20 12:54:25,244 - 1984 INFO - fact_attendence Records Inserted
+2020-07-20 12:54:25,244 - 1984 INFO - fact_attendence Records Inserted
+2020-07-20 12:54:25,244 - 1984 INFO - fact_attendence Records Inserted
+2020-07-20 12:54:25,244 - 1984 INFO - fact_attendence Records Inserted
+2020-07-20 12:54:25,244 - 1984 INFO - fact_attendence Records Inserted
+2020-07-20 12:54:25,434 - 1984 INFO - fact_payment Records Inserted
+2020-07-20 12:54:25,434 - 1984 INFO - fact_payment Records Inserted
+2020-07-20 12:54:25,434 - 1984 INFO - fact_payment Records Inserted
+2020-07-20 12:54:25,434 - 1984 INFO - fact_payment Records Inserted
+2020-07-20 12:54:25,434 - 1984 INFO - fact_payment Records Inserted
+2020-07-20 12:54:25,434 - 1984 INFO - fact_payment Records Inserted
+2020-07-20 12:54:25,434 - 1984 INFO - fact_payment Records Inserted
+2020-07-20 12:54:25,434 - 1984 INFO - fact_payment Records Inserted
+2020-07-20 12:54:25,434 - 1984 INFO - fact_payment Records Inserted
+2020-07-20 12:54:25,434 - 1984 INFO - fact_payment Records Inserted
+2020-07-20 12:54:25,434 - 1984 INFO - fact_payment Records Inserted
+2020-07-20 12:54:25,434 - 1984 INFO - fact_payment Records Inserted
+2020-07-20 12:54:25,434 - 1984 INFO - fact_payment Records Inserted
+2020-07-20 12:54:25,604 - 1984 INFO - fact_placement Records Inserted
+2020-07-20 12:54:25,604 - 1984 INFO - fact_placement Records Inserted
+2020-07-20 12:54:25,604 - 1984 INFO - fact_placement Records Inserted
+2020-07-20 12:54:25,604 - 1984 INFO - fact_placement Records Inserted
+2020-07-20 12:54:25,604 - 1984 INFO - fact_placement Records Inserted
+2020-07-20 12:54:25,604 - 1984 INFO - fact_placement Records Inserted
+2020-07-20 12:54:25,604 - 1984 INFO - fact_placement Records Inserted
+2020-07-20 12:54:25,604 - 1984 INFO - fact_placement Records Inserted
+2020-07-20 12:54:25,604 - 1984 INFO - fact_placement Records Inserted
+2020-07-20 12:54:25,604 - 1984 INFO - fact_placement Records Inserted
+2020-07-20 12:54:25,604 - 1984 INFO - fact_placement Records Inserted
+2020-07-20 12:54:25,604 - 1984 INFO - fact_placement Records Inserted
+2020-07-20 12:54:25,604 - 1984 INFO - fact_placement Records Inserted
+2020-07-20 12:54:25,604 - 1984 INFO - fact_placement Records Inserted
+2020-07-20 12:54:25,779 - 1984 INFO - fact_student Records Inserted
+2020-07-20 12:54:25,779 - 1984 INFO - fact_student Records Inserted
+2020-07-20 12:54:25,779 - 1984 INFO - fact_student Records Inserted
+2020-07-20 12:54:25,779 - 1984 INFO - fact_student Records Inserted
+2020-07-20 12:54:25,779 - 1984 INFO - fact_student Records Inserted
+2020-07-20 12:54:25,779 - 1984 INFO - fact_student Records Inserted
+2020-07-20 12:54:25,779 - 1984 INFO - fact_student Records Inserted
+2020-07-20 12:54:25,779 - 1984 INFO - fact_student Records Inserted
+2020-07-20 12:54:25,779 - 1984 INFO - fact_student Records Inserted
+2020-07-20 12:54:25,779 - 1984 INFO - fact_student Records Inserted
+2020-07-20 12:54:25,779 - 1984 INFO - fact_student Records Inserted
+2020-07-20 12:54:25,779 - 1984 INFO - fact_student Records Inserted
+2020-07-20 12:54:25,779 - 1984 INFO - fact_student Records Inserted
+2020-07-20 12:54:25,779 - 1984 INFO - fact_student Records Inserted
+2020-07-20 12:54:25,779 - 1984 INFO - fact_student Records Inserted
+2020-07-20 12:55:24,854 - 856 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/k.a.ramasubramanian/Desktop/Training/Student_project/src/main/creation_ddl_update.py", line 59, in ddl_updates\n    self.obj2.create_table(table, filepath)\n', "AttributeError: 'execution' object has no attribute 'create_table'\n"]
