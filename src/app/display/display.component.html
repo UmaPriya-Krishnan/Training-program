@@ -1,0 +1,21 @@
+<a routerLink ="/">BUTTON</a>
+<ag-grid-angular
+    #agGrid
+    style="width: 1200px; height: 250px;"
+    class="ag-theme-balham"
+    [rowData]="rowData | async"
+    [columnDefs]="column"
+    [defaultColDef]="defaultColDef"
+    [paginationAutoPageSize]="true"
+    [pagination]="true"
+    [editType]="editType"
+    (rowEditingStopped)="editedRow($event)"
+    (cellValueChanged)="onCellValueChanged($event)"
+    rowSelection="multiple">
+</ag-grid-angular>
+<br>
+<button (click)="delete()">DELETE</button>
+<button (click)="editedRow(editedRow)">UPDATE</button> 
+<!-- Enter ID: <input type = "number" required [(ngModel)] = "id"> <br> 
+<button (click) = "putMyData()">PUTT</button>
+<button (click) = "deleteMyData()">DELETTTTTT</button> -->

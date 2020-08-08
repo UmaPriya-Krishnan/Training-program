@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: rgb(19, 17, 17);
+        }        
+        li {
+          float: left;
+        }        
+        li a, .dropbtn {
+          display: inline-block;
+          color: rgb(255, 255, 255);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover, .dropdown:hover .dropbtn {
+          background-color: red;
+        }
+        
+        li.dropdown {
+          display: inline-block;
+        }           
+        </style>
+        </head>
+<body>    
+ <div class='topnav'>
+     <ul>
+      <li><a [routerLink]="['select', tablename]" >SELECT</a></li>
+      <li><a  routerLink ="/test">TEST</a></li>
+      <li><a  routerLink ="acdss">UPLOAD</a></li>
+      </ul>
+ </div>  
+ <br>
+<form class="inputs" action= '#' method="POST">     
+  <div >
+    <label>SCHEMA NAME :</label>
+    <select >
+        <option selected="selected">Schema</option>
+        <option> Student </option>
+    </select>
+<br>
+<br>
+    <label>TABLE NAME:  </label>
+           <select id="tname" name="tabname" [(ngModel)] = "tablename">
+               <option selected="selected">Tables</option>
+               <option *ngFor = "let table of tableData">{{table.Tables_in_student}}</option>
+           </select>        
+<br>
+<br>
+    <input type = "button" value = "submit">    
+<br>
+<br>
+   </div>
+</form>
+</body>
+<router-outlet></router-outlet>
+</html>
+
