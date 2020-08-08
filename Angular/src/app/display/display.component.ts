@@ -4,6 +4,7 @@ import { MyserviceService } from '../myservice.service';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { AgGridAngular } from 'ag-grid-angular';
+import { CommentStmt } from '@angular/compiler';
 
 @Component({
   selector: 'app-display',
@@ -32,6 +33,10 @@ export class DisplayComponent implements OnInit {
   rowD: any;
   abcd: any;
   id: any;
+  actualData: any[] = [];
+  editedData: any[] = [];
+  actualDatatype: any[] = [];
+  editedDatatype: any[] = [];
   putDddata: any;
   delData: any;
   val: any;
@@ -53,11 +58,12 @@ export class DisplayComponent implements OnInit {
    for(var i in data)
    {
       var key = i;
-       val = data[i];
-     // console.log(val)
-      for(var j in val)
+       this.val = data[i];
+      for(var j in this.val)
       {
-        var sub_val = val[j];
+        var sub_val = this.val[j];
+        this.actualData.push(sub_val)
+        this.actualDatatype.push(typeof(sub_val))
         this.keys.push(j);      
       }
       break;
@@ -80,26 +86,39 @@ console.log(this.values)
 }
 public editedRow(editedRow): void
 {
-// this.values = this.agGrid.api.getSelectedRows();
-// console.log(this.values)
 this.row = editedRow.data;
-//console.log(this.keys)
-console.log(this.dataa[0])
  for (var i in this.row)
 {
  var value = this.row[i]; 
- console.log(typeof(value), value)
- //console.log(value)
- this.rawData.push(value)
+ this.editedData.push(value);
+ this.editedDatatype.push(typeof(value))
 }
-console.log(this.rawData)
-  this.service.postData(this.rawData, this.tablename).subscribe((data)=>{
-  this.postData=data; 
-})
+  console.log(this.editedData)
+  console.log(this.actualData)
+  //console.log(this.actualDatatype)
+  for (var ind in this.editedDatatype)
+  {
+    if (this.editedDatatype[ind] == "undefined")
+    {
+      console.log(this.editedDatatype[ind])
+      this.editedDatatype[ind] = "object"
+    }
+  }
+  console.log(this.actualDatatype)
+  console.log(this.editedDatatype)
+  if (JSON.stringify(this.editedDatatype) === JSON.stringify(this.actualDatatype))
+   {
+    this.service.postData(this.editedData, this.tablename).subscribe((data)=>{
+      this.postData=data;  
+    })
+   }
+else
+{
+  window.alert("Please enter value of correct data type")
+}
 }
 delete(){
   this.row = this.agGrid.api.getSelectedRows();
-  //console.log(this.row)
   for (var i in this.row)
 {
  var values = this.row[i]; 
