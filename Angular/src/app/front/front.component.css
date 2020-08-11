@@ -15,26 +15,26 @@ input[type=button] {
   text-decoration: none;
   color: white;
   padding: 10px 10px;
-  /* margin: 10px 100px; */ 
+  /* margin: 10px 100px; */
 }
   .topnav {
     overflow: hidden;
   }
-  
+
   .topnav a {
     float: left;
-    border: darkblue;
+    border:white;
     text-align: left;
     padding: 10px 12px;
     text-decoration: none;
-    font-size: 17px;     
+    font-size: 17px;
   }
-  
-  .topnav a:hover {
+
+ /* .topnav a:hover {
     background-color: #ddd;
     color: red;
   }
-  
+
   .topnav a:active {
     background-color: black;
     border: darkgoldenrod;
@@ -44,4 +44,24 @@ input[type=button] {
   {
     background-color: red;
     color: darkblue;
+  } */
+
+
+  /* .topnav {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  } */
+  .topnav:hover {
+    background: gray;
+    color: white;
+  }
+
+  .topnav::after  {
+    background: gray;
+    color: white;
   }

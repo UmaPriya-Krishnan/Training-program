@@ -6,44 +6,55 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class MyserviceService {
-  tableUrl: string = "http://127.0.0.1:5000/tables ";
-  myUrl: string = "http://localhost:5000"
-  tes:string= "http://127.0.0.1:5000/testing";
+  myUrl: string = "http://localhost:5000";
 
-  constructor( private http: HttpClient,
-    private router: Router) { }
-  getTable(){
-    return  this.http.get(this.tableUrl)
+  constructor( private http: HttpClient, private router: Router) { }
+
+  getTable()
+  {
+    return this.http.get(this.myUrl + '/tables')
   }
-  getData(tablename){
-    return  this.http.get(this.myUrl+"/"+tablename)
+
+  getData(tablename)
+  {
+    return this.http.get(this.myUrl+"/select/"+tablename)
   }
-  posttable(tablename){
-    return this.http.post(this.tes,
+
+  getHiddenData(tablename)
+  {
+    return this.http.get(this.myUrl+"/select/hidden/"+tablename)
+  }
+
+  posttable(tablename)
+  {
+    return this.http.post(this.myUrl+'/testing',
       {
         tablename
       })
-    }
-  postData(rowData, tablename){
-    return this.http.post(this.myUrl + "/update_" + tablename,
+  }
+
+  postData(rowData, tablename)
+  {
+    return this.http.post(this.myUrl + "/update/" + tablename,
       {
         rowData
       })
   }
-  postDel(delData, tablename){
-    return this.http.post(this.myUrl + "/delete_" + tablename,
+  
+  postDel(delData, tablename)
+  {
+    return this.http.post(this.myUrl + "/s_delete/" + tablename,
     {
       delData
     })
   }
-
-  deleteData(id_del){
-    return this.http.delete("http://localhost:5000/dummy/" + id_del); }  
-  putDData(id_del){
-    return this.http.put("http://localhost:5000/dummy/" + id_del,
-    {
-      "id":id_del,
-      "name": "dmalmalka",
-    })
-  }
 }
+  // deleteData(id_del){
+  //   return this.http.delete("http://localhost:5000/dummy/" + id_del); }  
+  // putDData(id_del){
+  //   return this.http.put("http://localhost:5000/dummy/" + id_del,
+  //   {
+  //     "id":id_del,
+  //     "name": "dmalmalka",
+  //   })
+
