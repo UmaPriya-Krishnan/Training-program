@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>UPDATE</title>
+    </head>
+    <style>
+        input 
+        {
+            width: 25%;
+            padding: 6px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+    </style>
+    <body>
+        <form action="" method="POST">
+            <label>STUDENT_ID:</label>
+            <input type = "text" name = "STUDENT_ID" value = {{data.STUDENT_ID}} required><br>
+            <br>
+            <label>NAME:</label>
+            <input type="text" name = "NAME" value="{{data.NAME}}" required><br>
+            <br>
+            <label>DOB:</label>
+            <input type="text" name = "DOB" value="{{data.DOB}}" required><br>
+            <br>
+            <label>GENDER:</label>
+            <input type="text" name = "GENDER" value="{{data.GENDER}}" required><br>
+            <br>
+            <label>GUARDIAN_NAME:</label>
+            <input type="text" name = "GUARDIAN_NAME" value="{{data.GUARDIAN_NAME}}" required><br>
+            <br>
+            <label>ADDRESS:</label>
+            <input type="text" name = "ADDRESS" value="{{data.ADDRESS}}" required><br>
+            <br>
+            <label>PHONE_NO:</label>
+            <input type="text" name = "PHONE_NO" value="{{data.PHONE_NO}}" required><br>
+            <br>
+            <label>DOJ:</label>
+            <input type="text" name = "DOJ" value="{{data.DOJ}}" required><br>
+            <br>
+            <input type = "submit" value = "update">
+        </form>
+    </body>
+</html>

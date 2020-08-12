@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { DisplayComponent } from './display/display.component';
 import { TestingComponent } from './testing/testing.component';
+import { HiddenComponent } from './hidden/hidden.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { TestingComponent } from './testing/testing.component';
     FrontComponent,
     DisplayComponent,
     TestingComponent,
+    HiddenComponent,
   ],
   imports: [
     BrowserModule,

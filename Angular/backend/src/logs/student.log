@@ -1,0 +1,135 @@
+2020-08-10 23:33:58,420 - 15008 INFO - details_main Records Inserted
+2020-08-10 23:33:58,507 - 15008 INFO - dimension_calender_details Records Inserted
+2020-08-10 23:33:58,507 - 15008 INFO - dimension_calender_details Records Inserted
+2020-08-10 23:33:58,622 - 15008 INFO - dimension_course_details Records Inserted
+2020-08-10 23:33:58,622 - 15008 INFO - dimension_course_details Records Inserted
+2020-08-10 23:33:58,622 - 15008 INFO - dimension_course_details Records Inserted
+2020-08-10 23:33:58,705 - 15008 INFO - dimension_degree_details Records Inserted
+2020-08-10 23:33:58,705 - 15008 INFO - dimension_degree_details Records Inserted
+2020-08-10 23:33:58,705 - 15008 INFO - dimension_degree_details Records Inserted
+2020-08-10 23:33:58,705 - 15008 INFO - dimension_degree_details Records Inserted
+2020-08-10 23:33:58,815 - 15008 INFO - dimension_department_details Records Inserted
+2020-08-10 23:33:58,815 - 15008 INFO - dimension_department_details Records Inserted
+2020-08-10 23:33:58,815 - 15008 INFO - dimension_department_details Records Inserted
+2020-08-10 23:33:58,815 - 15008 INFO - dimension_departmexent_details Records Inserted
+2020-08-10 23:33:58,909 - 15008 INFO - dimension_exam_details Records Inserted
+2020-08-10 23:33:58,909 - 15008 INFO - dimension_exam_details Records Inserted
+2020-08-10 23:33:58,909 - 15008 INFO - dimension_exam_details Records Inserted
+2020-08-10 23:33:58,909 - 15008 INFO - dimension_exam_details Records Inserted
+2020-08-10 23:33:58,909 - 15008 INFO - dimension_exam_details Records Inserted
+2020-08-10 23:33:58,909 - 15008 INFO - dimension_exam_details Records Inserted
+2020-08-10 23:33:58,994 - 15008 INFO - dimension_grade_details Records Inserted
+2020-08-10 23:33:58,994 - 15008 INFO - dimension_grade_details Records Inserted
+2020-08-10 23:33:58,994 - 15008 INFO - dimension_grade_details Records Inserted
+2020-08-10 23:33:58,994 - 15008 INFO - dimension_grade_details Records Inserted
+2020-08-10 23:33:58,994 - 15008 INFO - dimension_grade_details Records Inserted
+2020-08-10 23:33:58,994 - 15008 INFO - dimension_grade_details Records Inserted
+2020-08-10 23:33:58,994 - 15008 INFO - dimension_grade_details Records Inserted
+2020-08-10 23:33:59,079 - 15008 INFO - dimension_payment_details Records Inserted
+2020-08-10 23:33:59,079 - 15008 INFO - dimension_payment_details Records Inserted
+2020-08-10 23:33:59,079 - 15008 INFO - dimension_payment_details Records Inserted
+2020-08-10 23:33:59,079 - 15008 INFO - dimension_payment_details Records Inserted
+2020-08-10 23:33:59,079 - 15008 INFO - dimension_payment_details Records Inserted
+2020-08-10 23:33:59,079 - 15008 INFO - dimension_payment_details Records Inserted
+2020-08-10 23:33:59,079 - 15008 INFO - dimension_payment_details Records Inserted
+2020-08-10 23:33:59,079 - 15008 INFO - dimension_payment_details Records Inserted
+2020-08-10 23:33:59,159 - 15008 INFO - dimension_placement_details Records Inserted
+2020-08-10 23:33:59,159 - 15008 INFO - dimension_placement_details Records Inserted
+2020-08-10 23:33:59,159 - 15008 INFO - dimension_placement_details Records Inserted
+2020-08-10 23:33:59,159 - 15008 INFO - dimension_placement_details Records Inserted
+2020-08-10 23:33:59,159 - 15008 INFO - dimension_placement_details Records Inserted
+2020-08-10 23:33:59,159 - 15008 INFO - dimension_placement_details Records Inserted
+2020-08-10 23:33:59,159 - 15008 INFO - dimension_placement_details Records Inserted
+2020-08-10 23:33:59,159 - 15008 INFO - dimension_placement_details Records Inserted
+2020-08-10 23:33:59,159 - 15008 INFO - dimension_placement_details Records Inserted
+2020-08-10 23:33:59,244 - 15008 INFO - dimension_staff_details Records Inserted
+2020-08-10 23:33:59,244 - 15008 INFO - dimension_staff_details Records Inserted
+2020-08-10 23:33:59,244 - 15008 INFO - dimension_staff_details Records Inserted
+2020-08-10 23:33:59,244 - 15008 INFO - dimension_staff_details Records Inserted
+2020-08-10 23:33:59,244 - 15008 INFO - dimension_staff_details Records Inserted
+2020-08-10 23:33:59,244 - 15008 INFO - dimension_staff_details Records Inserted
+2020-08-10 23:33:59,244 - 15008 INFO - dimension_staff_details Records Inserted
+2020-08-10 23:33:59,244 - 15008 INFO - dimension_staff_details Records Inserted
+2020-08-10 23:33:59,244 - 15008 INFO - dimension_staff_details Records Inserted
+2020-08-10 23:33:59,244 - 15008 INFO - dimension_staff_details Records Inserted
+2020-08-10 23:33:59,348 - 15008 INFO - fact_academics Records Inserted
+2020-08-10 23:33:59,348 - 15008 INFO - fact_academics Records Inserted
+2020-08-10 23:33:59,348 - 15008 INFO - fact_academics Records Inserted
+2020-08-10 23:33:59,348 - 15008 INFO - fact_academics Records Inserted
+2020-08-10 23:33:59,348 - 15008 INFO - fact_academics Records Inserted
+2020-08-10 23:33:59,348 - 15008 INFO - fact_academics Records Inserted
+2020-08-10 23:33:59,348 - 15008 INFO - fact_academics Records Inserted
+2020-08-10 23:33:59,348 - 15008 INFO - fact_academics Records Inserted
+2020-08-10 23:33:59,348 - 15008 INFO - fact_academics Records Inserted
+2020-08-10 23:33:59,348 - 15008 INFO - fact_academics Records Inserted
+2020-08-10 23:33:59,348 - 15008 INFO - fact_academics Records Inserted
+2020-08-10 23:33:59,486 - 15008 INFO - fact_attendence Records Inserted
+2020-08-10 23:33:59,486 - 15008 INFO - fact_attendence Records Inserted
+2020-08-10 23:33:59,486 - 15008 INFO - fact_attendence Records Inserted
+2020-08-10 23:33:59,486 - 15008 INFO - fact_attendence Records Inserted
+2020-08-10 23:33:59,486 - 15008 INFO - fact_attendence Records Inserted
+2020-08-10 23:33:59,486 - 15008 INFO - fact_attendence Records Inserted
+2020-08-10 23:33:59,486 - 15008 INFO - fact_attendence Records Inserted
+2020-08-10 23:33:59,486 - 15008 INFO - fact_attendence Records Inserted
+2020-08-10 23:33:59,486 - 15008 INFO - fact_attendence Records Inserted
+2020-08-10 23:33:59,486 - 15008 INFO - fact_attendence Records Inserted
+2020-08-10 23:33:59,486 - 15008 INFO - fact_attendence Records Inserted
+2020-08-10 23:33:59,486 - 15008 INFO - fact_attendence Records Inserted
+2020-08-10 23:33:59,613 - 15008 INFO - fact_payment Records Inserted
+2020-08-10 23:33:59,613 - 15008 INFO - fact_payment Records Inserted
+2020-08-10 23:33:59,613 - 15008 INFO - fact_payment Records Inserted
+2020-08-10 23:33:59,613 - 15008 INFO - fact_payment Records Inserted
+2020-08-10 23:33:59,613 - 15008 INFO - fact_payment Records Inserted
+2020-08-10 23:33:59,613 - 15008 INFO - fact_payment Records Inserted
+2020-08-10 23:33:59,613 - 15008 INFO - fact_payment Records Inserted
+2020-08-10 23:33:59,613 - 15008 INFO - fact_payment Records Inserted
+2020-08-10 23:33:59,613 - 15008 INFO - fact_payment Records Inserted
+2020-08-10 23:33:59,613 - 15008 INFO - fact_payment Records Inserted
+2020-08-10 23:33:59,613 - 15008 INFO - fact_payment Records Inserted
+2020-08-10 23:33:59,613 - 15008 INFO - fact_payment Records Inserted
+2020-08-10 23:33:59,613 - 15008 INFO - fact_payment Records Inserted
+2020-08-10 23:33:59,742 - 15008 INFO - fact_placement Records Inserted
+2020-08-10 23:33:59,742 - 15008 INFO - fact_placement Records Inserted
+2020-08-10 23:33:59,742 - 15008 INFO - fact_placement Records Inserted
+2020-08-10 23:33:59,742 - 15008 INFO - fact_placement Records Inserted
+2020-08-10 23:33:59,742 - 15008 INFO - fact_placement Records Inserted
+2020-08-10 23:33:59,742 - 15008 INFO - fact_placement Records Inserted
+2020-08-10 23:33:59,742 - 15008 INFO - fact_placement Records Inserted
+2020-08-10 23:33:59,742 - 15008 INFO - fact_placement Records Inserted
+2020-08-10 23:33:59,742 - 15008 INFO - fact_placement Records Inserted
+2020-08-10 23:33:59,742 - 15008 INFO - fact_placement Records Inserted
+2020-08-10 23:33:59,742 - 15008 INFO - fact_placement Records Inserted
+2020-08-10 23:33:59,742 - 15008 INFO - fact_placement Records Inserted
+2020-08-10 23:33:59,742 - 15008 INFO - fact_placement Records Inserted
+2020-08-10 23:33:59,742 - 15008 INFO - fact_placement Records Inserted
+2020-08-10 23:33:59,943 - 15008 INFO - fact_student Records Inserted
+2020-08-10 23:33:59,943 - 15008 INFO - fact_student Records Inserted
+2020-08-10 23:33:59,943 - 15008 INFO - fact_student Records Inserted
+2020-08-10 23:33:59,943 - 15008 INFO - fact_student Records Inserted
+2020-08-10 23:33:59,943 - 15008 INFO - fact_student Records Inserted
+2020-08-10 23:33:59,943 - 15008 INFO - fact_student Records Inserted
+2020-08-10 23:33:59,943 - 15008 INFO - fact_student Records Inserted
+2020-08-10 23:33:59,943 - 15008 INFO - fact_student Records Inserted
+2020-08-10 23:33:59,943 - 15008 INFO - fact_student Records Inserted
+2020-08-10 23:33:59,943 - 15008 INFO - fact_student Records Inserted
+2020-08-10 23:33:59,943 - 15008 INFO - fact_student Records Inserted
+2020-08-10 23:33:59,943 - 15008 INFO - fact_student Records Inserted
+2020-08-10 23:33:59,943 - 15008 INFO - fact_student Records Inserted
+2020-08-10 23:33:59,943 - 15008 INFO - fact_student Records Inserted
+2020-08-10 23:33:59,943 - 15008 INFO - fact_student Records Inserted
+2020-08-10 23:34:00,060 - 15008 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src/main/insertion.py", line 32, in record_insertion\n    with open(file_path, \'r\') as read_file:\n', "FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src\\\\files\\\\records\\\\__init__.csv'\n"]
+2020-08-10 23:34:00,060 - 15008 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src/main/insertion.py", line 32, in record_insertion\n    with open(file_path, \'r\') as read_file:\n', "FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src\\\\files\\\\records\\\\__init__.csv'\n"]
+2020-08-10 23:34:00,060 - 15008 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src/main/insertion.py", line 32, in record_insertion\n    with open(file_path, \'r\') as read_file:\n', "FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src\\\\files\\\\records\\\\__init__.csv'\n"]
+2020-08-10 23:34:00,060 - 15008 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src/main/insertion.py", line 32, in record_insertion\n    with open(file_path, \'r\') as read_file:\n', "FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src\\\\files\\\\records\\\\__init__.csv'\n"]
+2020-08-10 23:34:00,060 - 15008 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src/main/insertion.py", line 32, in record_insertion\n    with open(file_path, \'r\') as read_file:\n', "FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src\\\\files\\\\records\\\\__init__.csv'\n"]
+2020-08-10 23:34:00,060 - 15008 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src/main/insertion.py", line 32, in record_insertion\n    with open(file_path, \'r\') as read_file:\n', "FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src\\\\files\\\\records\\\\__init__.csv'\n"]
+2020-08-10 23:34:00,060 - 15008 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src/main/insertion.py", line 32, in record_insertion\n    with open(file_path, \'r\') as read_file:\n', "FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src\\\\files\\\\records\\\\__init__.csv'\n"]
+2020-08-10 23:34:00,060 - 15008 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src/main/insertion.py", line 32, in record_insertion\n    with open(file_path, \'r\') as read_file:\n', "FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src\\\\files\\\\records\\\\__init__.csv'\n"]
+2020-08-10 23:34:00,060 - 15008 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src/main/insertion.py", line 32, in record_insertion\n    with open(file_path, \'r\') as read_file:\n', "FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src\\\\files\\\\records\\\\__init__.csv'\n"]
+2020-08-10 23:34:00,060 - 15008 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src/main/insertion.py", line 32, in record_insertion\n    with open(file_path, \'r\') as read_file:\n', "FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src\\\\files\\\\records\\\\__init__.csv'\n"]
+2020-08-10 23:34:00,060 - 15008 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src/main/insertion.py", line 32, in record_insertion\n    with open(file_path, \'r\') as read_file:\n', "FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src\\\\files\\\\records\\\\__init__.csv'\n"]
+2020-08-10 23:34:00,060 - 15008 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src/main/insertion.py", line 32, in record_insertion\n    with open(file_path, \'r\') as read_file:\n', "FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src\\\\files\\\\records\\\\__init__.csv'\n"]
+2020-08-10 23:34:00,060 - 15008 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src/main/insertion.py", line 32, in record_insertion\n    with open(file_path, \'r\') as read_file:\n', "FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src\\\\files\\\\records\\\\__init__.csv'\n"]
+2020-08-10 23:34:00,060 - 15008 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src/main/insertion.py", line 32, in record_insertion\n    with open(file_path, \'r\') as read_file:\n', "FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src\\\\files\\\\records\\\\__init__.csv'\n"]
+2020-08-10 23:34:00,060 - 15008 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src/main/insertion.py", line 32, in record_insertion\n    with open(file_path, \'r\') as read_file:\n', "FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src\\\\files\\\\records\\\\__init__.csv'\n"]
+2020-08-10 23:34:00,060 - 15008 DEBUG - ['Traceback (most recent call last):\n', '  File "C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src/main/insertion.py", line 32, in record_insertion\n    with open(file_path, \'r\') as read_file:\n', "FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/umapriya.krishnan/Desktop/student_project/Student_project-kanth_feature/src\\\\files\\\\records\\\\__init__.csv'\n"]

@@ -49,12 +49,4 @@ export class MyserviceService {
     })
   }
 }
-  // deleteData(id_del){
-  //   return this.http.delete("http://localhost:5000/dummy/" + id_del); }  
-  // putDData(id_del){
-  //   return this.http.put("http://localhost:5000/dummy/" + id_del,
-  //   {
-  //     "id":id_del,
-  //     "name": "dmalmalka",
-  //   })
 

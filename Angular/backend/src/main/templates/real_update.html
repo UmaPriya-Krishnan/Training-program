@@ -1,0 +1,42 @@
+<div>
+    <style>
+    table, th, td 
+    {
+        border: 0.5px solid black;    
+    } 
+    </style>
+    <table>
+        <thead>
+            <tr>
+                <th> STUDENT_ID</th>
+                <th>NAME</th>
+                <th>DOB</th>
+                <th>GENDER</th>
+                <th>GUARDIAN_NAME</th>
+                <th>ADDRESS</th>
+                <th>PHONE_NO</th>
+                <th>DOJ</th>
+            </tr>
+        </thead>
+        <tbody>
+             {% for data in values %}
+             <tr>
+                <td contenteditable="true"> {{data.STUDENT_ID}}</td>
+                <td contenteditable="true">{{data.NAME}}</td>
+                <td contenteditable="true">{{data.DOB}}</td>
+                <td contenteditable="true">{{data.GENDER}}</td>
+                <td contenteditable="true">{{data.GUARDIAN_NAME}}</td>
+                <td contenteditable="true">{{data.ADDRESS}}</td>
+                <td contenteditable="true">{{data.PHONE_NO}}</td>
+                <td contenteditable="true">{{data.DOJ}}</td>
+                <td contenteditable="true"><input type="checkbox"></td>
+                <!-- <td><a href = "{{url_for('update', id = data.STUDENT_ID)}}"> UPDATE</a></td>
+                <td><a href = "{{url_for('delete', id = data.STUDENT_ID)}}"> DELETE</a></td> -->
+             </tr>
+             {% endfor %} 
+        </tbody>
+    </table>
+    <a href = "{{url_for('update')}}"> UPDATE</a>
+    <br>
+    <br>
+</div>
