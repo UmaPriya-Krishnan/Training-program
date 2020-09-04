@@ -1,4 +1,4 @@
-nclass fun:
+class fun:
     def upperCase(self,string):
         '''This function checks whether the characters in the string are in upper case. 
         If not it converts them to upper case'''
